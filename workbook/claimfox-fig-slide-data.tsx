@@ -21,6 +21,20 @@ import { SectionHero, Callout, WWE, Steps, Shot, Prompt, HOST, IMG } from "@/dec
    hire, ask for options and steer, have it check the work, plus a prompt card.
    Part 2 shows no sample outputs: nothing there was run in a clean Claude app
    session, so the "expect" lines describe what to look for instead.
+
+   Sep 28 revision (Patrick): assume Fig already uses Claude sometimes. The
+   "it remembers the thread" exercise was cut as too basic, exercise 1 now
+   covers the parts a casual user may not have touched, and a new exercise 5
+   covers standing context (CLAUDE.md + VOICE.md, in a folder or a Project).
+   VOICE.md is built from her own sent emails: samples beat self-description
+   (Agent Context Kit research, 2026-09-17).
+
+   The cheat sheet (added Sep 28) carries the core ideas from the Cowork
+   workshops (public-slide-data.tsx, pulsepoint-slide-data.tsx): the intern,
+   Chat/Cowork/Code, models, tokens and the context window, tokenization and
+   hallucination, data safety, skills/connectors/plugins, and three prompt
+   moves. Plain English, one ClaimFox example per idea. Model names are family
+   names only so the page doesn't go stale when versions change.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const FIG_ZIP = `https://${HOST}/claimfox-files/claimfox-fig-practice.zip`;
@@ -67,22 +81,22 @@ const sStart: Section = {
 };
 
 const s1: Section = {
-  id: "fig-1", num: "1", group: G, title: "Find your way around", shortTitle: "1 · The app",
+  id: "fig-1", num: "1", group: G, title: "The parts that do the work", shortTitle: "1 · The app",
   slides: [
     {
-      id: "fig-1-a", title: "Exercise 1 · Find your way around", eyebrow: "EXERCISE 1 OF 6 · 3 MINUTES",
+      id: "fig-1-a", title: "Exercise 1 · The parts that do the work", eyebrow: "EXERCISE 1 OF 6 · 3 MINUTES",
       content: (
         <>
           <WWE
-            what="Find the three things you'll use every time."
-            why="Everything else on the screen can wait. These three get you through today."
-            expect="You can point to each one without looking for it."
+            what="Find the three parts of the app that turn Claude from a question box into something that does work."
+            why="If you've mostly used Chat, these are what the rest of today runs on."
+            expect="You know where each one is and what it's for."
           />
           <Shot src={`${IMG}/cowork-home-private.png`} alt="The Claude app home screen" w={992} h={865} max={760} caption="The Claude app. The list on the left is blurred for privacy. Yours will show your own chats." />
           <Steps items={[
-            <><strong>The box in the middle</strong> is where you type. Like a text message.</>,
-            <><strong>Chat or Cowork</strong>, just under the box. <strong>Chat</strong> is a conversation. <strong>Cowork</strong> is Claude working on the files in a folder. You'll use both.</>,
-            <><strong>New</strong>, top left, starts a fresh conversation. Start a new one whenever you change topics, like opening a new email.</>,
+            <><strong>The Chat / Cowork switch</strong>, under the message box. Cowork works on a folder of files on your laptop and makes real files: PDFs, spreadsheets, Word documents.</>,
+            <><strong>The model menu</strong>, in the message box. Sonnet is the everyday model. Switch to Opus when a problem is hard or the first answer missed.</>,
+            <><strong>Projects and Customize</strong>, in the left sidebar. Projects hold standing instructions and files for ongoing work (exercise 5). Customize is where the skills your team builds today will live.</>,
           ]} />
         </>
       ),
@@ -91,44 +105,10 @@ const s1: Section = {
 };
 
 const s2: Section = {
-  id: "fig-2", num: "2", group: G, title: "Your first question", shortTitle: "2 · First question",
+  id: "fig-2", num: "2", group: G, title: "Hand Claude a file", shortTitle: "2 · A folder",
   slides: [
     {
-      id: "fig-2-a", title: "Exercise 2 · Ask your first question", eyebrow: "EXERCISE 2 OF 6 · 5 MINUTES",
-      content: (
-        <>
-          <WWE
-            what="Ask Claude a question in Chat, then ask it to change its answer."
-            why="It's a conversation, not a search box. It remembers what you just said, so you can steer it."
-            expect="Five plain bullets, then a shorter version when you ask."
-          />
-          <Steps items={[
-            <>Make sure the toggle under the box says <strong>Chat</strong>.</>,
-            <>Click in the box, paste the question below, and press <strong>Enter</strong>.</>,
-          ]} />
-          <Prompt label="Paste this" code={`I'm the CEO of a company that handles claim-file record requests for auto and workers' comp insurance carriers. In plain English, what could you help me with in a normal week? Five bullet points, no jargon.`} />
-          <ClaudeSaid>
-            <ul className="space-y-2">
-              <li>• <strong>Read the long stuff for you.</strong> Email threads, reports and contracts, boiled down to what needs your attention.</li>
-              <li>• <strong>Turn spreadsheets into answers.</strong> Which clients grew, which are slipping, where the money is stuck.</li>
-              <li>• <strong>Draft things you'd otherwise write from scratch.</strong> Letters, updates, policies, talking points.</li>
-              <li>• <strong>Prepare you for meetings.</strong> The key facts, open issues and good questions to ask.</li>
-              <li>• <strong>Pull your team's updates into one page</strong>, so you see the week in two minutes.</li>
-            </ul>
-          </ClaudeSaid>
-          <Prompt label="Now type this, in the same conversation" code={`Make that three bullets, and put the one that would save me the most time first.`} />
-          <ProTip>Notice you didn't repeat yourself. It kept the context. When an answer isn't right, don't start over. Tell it what to change.</ProTip>
-        </>
-      ),
-    },
-  ],
-};
-
-const s3: Section = {
-  id: "fig-3", num: "3", group: G, title: "Hand Claude a file", shortTitle: "3 · A file",
-  slides: [
-    {
-      id: "fig-3-a", title: "Exercise 3 · Hand Claude a file", eyebrow: "EXERCISE 3 OF 6 · 7 MINUTES",
+      id: "fig-2-a", title: "Exercise 2 · Hand Claude a file", eyebrow: "EXERCISE 2 OF 6 · 7 MINUTES",
       content: (
         <>
           <WWE
@@ -158,11 +138,11 @@ const s3: Section = {
   ],
 };
 
-const s4: Section = {
-  id: "fig-4", num: "4", group: G, title: "Make a one-page PDF", shortTitle: "4 · A PDF",
+const s3: Section = {
+  id: "fig-3", num: "3", group: G, title: "Make a one-page PDF", shortTitle: "3 · A PDF",
   slides: [
     {
-      id: "fig-4-a", title: "Exercise 4 · Turn it into a one-page PDF", eyebrow: "EXERCISE 4 OF 6 · 7 MINUTES",
+      id: "fig-3-a", title: "Exercise 3 · Turn it into a one-page PDF", eyebrow: "EXERCISE 3 OF 6 · 7 MINUTES",
       content: (
         <>
           <WWE
@@ -179,11 +159,11 @@ const s4: Section = {
   ],
 };
 
-const s5: Section = {
-  id: "fig-5", num: "5", group: G, title: "Ask about all your clients", shortTitle: "5 · All the data",
+const s4: Section = {
+  id: "fig-4", num: "4", group: G, title: "Ask about all your clients", shortTitle: "4 · All the data",
   slides: [
     {
-      id: "fig-5-a", title: "Exercise 5 · Ask a question about every client at once", eyebrow: "EXERCISE 5 OF 6 · 10 MINUTES",
+      id: "fig-4-a", title: "Exercise 4 · Ask a question about every client at once", eyebrow: "EXERCISE 4 OF 6 · 10 MINUTES",
       content: (
         <>
           <WWE
@@ -211,6 +191,75 @@ const s5: Section = {
   ],
 };
 
+const s5: Section = {
+  id: "fig-5", num: "5", group: G, title: "Give it standing context", shortTitle: "5 · Context",
+  slides: [
+    {
+      id: "fig-5-a", title: "Exercise 5 · Give it standing context", eyebrow: "EXERCISE 5 OF 6 · 12 MINUTES",
+      content: (
+        <>
+          <WWE
+            what="Write two short files once: a CLAUDE.md about you and ClaimFox, and a VOICE.md about how you write. Then have Claude read them before it does anything."
+            why="Every new chat starts from zero, so you keep re-explaining who you are, who your team is and how you like things. Put that in a file once and every answer starts from where you are."
+            expect="Two files in your practice folder. Then a draft that already knows who Amanda is and sounds more like you than anything so far today."
+          />
+          <span className="type-label text-[var(--terra)] block mt-10 mb-3">TWO PLACES CONTEXT CAN LIVE</span>
+          <div className="grid md:grid-cols-2 gap-5">
+            <div className="border-2 border-[var(--indigo)] p-6">
+              <span className="type-label text-[var(--indigo)]">A FOLDER ON YOUR LAPTOP · TODAY</span>
+              <p className="type-body text-[var(--charcoal)]/85 mt-2">Put CLAUDE.md and VOICE.md in a folder and work in that folder with Cowork. Best for work that involves files: reports, spreadsheets, documents.</p>
+            </div>
+            <div className="border border-[var(--charcoal)]/15 p-6">
+              <span className="type-label text-[var(--terra)]">A PROJECT IN THE APP</span>
+              <p className="type-body text-[var(--charcoal)]/85 mt-2">Sidebar, then <strong>Projects</strong>, then <strong>New project</strong>. Paste the same text into the project's instructions. Every chat in it starts with that context. Best for an ongoing topic, like board prep.</p>
+            </div>
+          </div>
+          <span className="type-label text-[var(--terra)] block mt-10 mb-2">STEP 1 · HAVE IT WRITE YOUR CLAUDE.MD</span>
+          <p className="type-body text-[var(--charcoal)]/80 max-w-[860px]">In Cowork, with your practice folder selected. This is Habit 1 from Part 2: you answer, it writes.</p>
+          <Prompt label="Paste this" code={`Interview me to write a CLAUDE.md file for this folder. Cover who I am, what ClaimFox does, my leadership team and their roles, and how I like answers from you. Ask one question at a time, no more than 8. Then save it here as CLAUDE.md.`} />
+          <Prompt label="What a good one looks like (example, yours will say what's true for you)" code={`# About me
+I'm Fig, CEO of ClaimFox. We retrieve claim-file records for auto and workers' comp insurance carriers.
+
+# My leadership team
+- Heidy Villarreal: Director of Technology
+- Barbara: VP of Operations (contracts)
+- Amanda: Director of Operations
+- Michelle: Director of Customer Experience
+- Christine: Assistant Comptroller. Scott: Controller.
+- Chris: Security and compliance
+- Mary: Client services, runs testing
+- Kaela: HR Manager
+
+# How I like answers
+- Lead with the answer, then the detail.
+- Put anything that needs a decision from me at the top.
+- Calculate numbers, don't estimate them, and say where they came from.
+- If the files don't say, tell me. Don't fill the gap.
+
+# Before you show me a draft
+Check it against VOICE.md.`} />
+          <span className="type-label text-[var(--terra)] block mt-10 mb-2">STEP 2 · BUILD YOUR VOICE.MD FROM REAL EMAILS</span>
+          <p className="type-body text-[var(--charcoal)]/80 max-w-[860px]">Describing your own style doesn't work well. Your actual emails do. Pick three you've sent that sound like you, and that you're comfortable pasting in.</p>
+          <Prompt label="Paste this, then paste the three emails under it" code={`Here are three emails I've sent that sound like me. Write a VOICE.md that describes how I write: how long my emails are, how I open and close, the words I use and the ones I never use. Quote my own lines as examples. Save it in this folder.`} />
+          <Prompt label="What a good one looks like (example)" code={`# How I write
+- Short. Most emails are under 120 words.
+- I open with the point, not a warm-up paragraph.
+- I close with a clear ask and a date.
+- Plain words: "fix," not "remediate."
+- Never: "I hope this finds you well," "circle back," "synergy."
+
+# Lines from my own emails
+- "[a line you actually wrote]"
+- "[another one]"`} />
+          <span className="type-label text-[var(--terra)] block mt-10 mb-2">STEP 3 · TEST IT</span>
+          <Prompt label="New conversation, same folder" code={`Read CLAUDE.md and VOICE.md first. Then draft a short note to Amanda asking for a recovery plan on Harborline by Friday.`} />
+          <ProTip>Keep them alive. When Claude gets something about you wrong twice, add a line to CLAUDE.md. When a draft doesn't sound like you, say so, and have it update VOICE.md.</ProTip>
+        </>
+      ),
+    },
+  ],
+};
+
 const s6: Section = {
   id: "fig-6", num: "6", group: G, title: "Catch it guessing", shortTitle: "6 · Catch a guess",
   slides: [
@@ -226,7 +275,7 @@ const s6: Section = {
           <Callout label="THE IDEA, IN THREE SENTENCES" tone="terra">
             Claude doesn't look things up the way a person does. It writes the most likely next words, very well. When it knows the answer from what you gave it, that's great. When it doesn't, the most likely words can still sound confident, and that's what people call "making things up."
           </Callout>
-          <Prompt label="Same conversation, paste this" code={`What did Beacon Casualty's CEO say about why they're sending us less work?`} />
+          <Prompt label="Same folder, new conversation. Paste this" code={`What did Beacon Casualty's CEO say about why they're sending us less work?`} />
           <ClaudeSaid>
             <p>Nothing in these files says that. The only mention of Beacon is in Amanda's update: its volume "basically dried up, maybe 10 requests all week." The request data shows Beacon's volume fell from about 45 a month in March and April to 12 to 18 a month since May. It doesn't say why.</p>
           </ClaudeSaid>
@@ -271,7 +320,7 @@ const s7: Section = {
           <Steps items={[
             <>Click <strong>New</strong>. Make sure the toggle says <strong>Chat</strong>.</>,
             <>Paste the prompt below and press <strong>Enter</strong>.</>,
-            <>Answer each question in a sentence or two, the way you'd answer a text. Short is fine.</>,
+            <>Answer each question briefly. A sentence or two is plenty.</>,
             <>When the draft appears, tell it what to change. You're the editor now.</>,
           ]} />
           <Prompt label="Paste this" code={`I need to write a short note to my leadership team about the AI build day we just had and what happens next. Before you write anything, interview me. Ask me one question at a time, wait for my answer, and stop after five questions. Then write the note.`} />
@@ -395,6 +444,127 @@ Before you start, ask me anything you need to know.`} />
   ],
 };
 
+/* ── CHEAT SHEET ─────────────────────────────────────────────────────────── */
+
+const G3 = "Cheat sheet";
+
+function Term({ tag, name, what, cf, doIt, color = "var(--indigo)" }: { tag: string; name: string; what: React.ReactNode; cf: React.ReactNode; doIt: React.ReactNode; color?: string }) {
+  return (
+    <div className="border border-[var(--charcoal)]/15 p-6 flex flex-col gap-3" style={{ borderTop: `4px solid ${color}` }}>
+      <div>
+        <span className="type-label" style={{ color }}>{tag}</span>
+        <p className="type-body-lg font-medium text-[var(--charcoal)] mt-1">{name}</p>
+      </div>
+      <p className="type-body text-[var(--charcoal)]/85">{what}</p>
+      <p className="type-body-sm text-[var(--charcoal)]/75"><strong className="text-[var(--charcoal)]">At ClaimFox: </strong>{cf}</p>
+      <p className="type-body-sm text-[var(--charcoal)]/75"><strong className="text-[var(--charcoal)]">What to do: </strong>{doIt}</p>
+    </div>
+  );
+}
+
+const sCheat: Section = {
+  id: "fig-cheat", num: "Ref", group: G3, title: "Cheat sheet", shortTitle: "Cheat sheet",
+  slides: [
+    {
+      id: "fig-cheat-words", title: "The words you'll hear today", eyebrow: "CHEAT SHEET · 1 OF 3",
+      content: (
+        <>
+          <Callout label="THE ONE IDEA UNDER ALL OF IT" tone="terra">
+            Claude is like hiring a very capable intern who, on day one, doesn't know anything. Give them what they need, and they become the most valuable person in the building.
+          </Callout>
+          <div className="grid md:grid-cols-2 gap-5 mt-8">
+            <Term tag="THREE DOORS IN" name="Chat, Cowork and Code"
+              what={<><strong>Chat</strong> is "think with me": a conversation. <strong>Cowork</strong> is "finish it for me": you give it a goal and a folder, and it works until it's done. <strong>Code</strong> is for writing software.</>}
+              cf="Summaries and drafts in Chat. Reports built from a folder of files in Cowork. Code belongs to Heidy's team."
+              doIt="Under 2 minutes and no files: Chat. Real work that ends in a file: Cowork. If you've never opened a code editor, you don't need Code." />
+            <Term tag="WHICH BRAIN" name="Models" color="var(--terra)"
+              what={<>Claude comes in sizes. <strong>Sonnet</strong> is the everyday one. <strong>Opus</strong> is for hard problems. <strong>Haiku</strong> is the fast, light one. <strong>Fable</strong> is the most powerful, and you won't need it yet.</>}
+              cf="Everything in today's workbooks runs fine on Sonnet."
+              doIt="Stay on Sonnet. If an answer disappoints you, switch to Opus in the model menu and run it again." />
+            <Term tag="TEACHES HOW" name="Skill"
+              what="A written set of instructions that teaches Claude how to do one task your way. It switches on by itself when your request matches."
+              cf="That's what your team built today. Barbara's contract checker is a skill: how we read a contract, written down once, done the same way every time."
+              doIt="Don't go hunting for skills to build. When you catch yourself typing the same instructions a third time, that's a skill. They live under Customize, then Skills." />
+            <Term tag="GRANTS ACCESS" name="Connector" color="var(--terra)"
+              what="A sign-in that lets Claude read, and sometimes act, inside another app, like email, calendar or SharePoint. It signs in as you, so it can only see what you can see."
+              cf="Microsoft 365 would let Claude read SharePoint files directly. Heidy decides which connectors are turned on."
+              doIt="If a tool isn't connected, export the report and drop it in a folder. That's how most people start." />
+            <Term tag="THE BUNDLE" name="Plugin" color="var(--charcoal)"
+              what="Skills and connectors packaged together and installed in one click. If a skill is a lesson and a connector is a login, a plugin is the whole playbook."
+              cf="Down the road, today's skills could be packaged as one ClaimFox plugin that Heidy installs for everyone at once."
+              doIt="Nothing yet. Just know the word when Heidy uses it." />
+            <Term tag="WHAT IT CAN HOLD" name="Tokens and the context window"
+              what="Claude reads text in small chunks called tokens, and can only hold so many at once. Everything in a conversation fills that space: your questions, the files, its own replies."
+              cf="A chat that mixes Monday's client email, Tuesday's spreadsheet and Thursday's board prep gets worse answers, not better ones."
+              doIt={<>New thought, new session. Click <strong>New</strong> each time you change topics.</>} />
+            <Term tag="A STANDING WORKSPACE" name="Project" color="var(--terra)"
+              what="A workspace in the app with its own instructions and files. Every chat inside it starts with that context already loaded."
+              cf="A Board prep project with the latest financials and your board's usual questions, or one per big client."
+              doIt="Sidebar, then Projects, then New project. One per ongoing piece of work." />
+            <Term tag="CONTEXT IN A FILE" name="CLAUDE.md and VOICE.md" color="var(--charcoal)"
+              what="Two plain text files. CLAUDE.md says who you are, what the business does and how you like answers. VOICE.md says how you write, built from your real emails."
+              cf="Exercise 5. Every skill your team built today works the same way: written context, loaded before the task."
+              doIt="Keep them in the folder you work in, or paste them into a Project. Add a line whenever Claude gets you wrong twice." />
+          </div>
+        </>
+      ),
+    },
+    {
+      id: "fig-cheat-how", title: "How it actually works", eyebrow: "CHEAT SHEET · 2 OF 3",
+      content: (
+        <>
+          <p className="type-body-lg text-[var(--charcoal)]/85 mt-4 max-w-[860px]">A language model has exactly one job: <strong>predict the next word</strong> (the next token). That's all it does, very well. It's a different kind of software from the kind we grew up with.</p>
+          <div className="grid md:grid-cols-2 gap-5 mt-8">
+            <div className="border border-[var(--charcoal)]/15 p-6">
+              <span className="type-label text-[var(--charcoal)]/60">A CALCULATOR</span>
+              <p className="type-body-lg font-medium text-[var(--charcoal)] mt-2">2 + 2 = 4</p>
+              <p className="type-body text-[var(--charcoal)]/80 mt-2">Excel computes it. Same answer every time, forever. It isn't guessing.</p>
+            </div>
+            <div className="border-2 border-[var(--indigo)] p-6">
+              <span className="type-label text-[var(--indigo)]">A LANGUAGE MODEL</span>
+              <p className="type-body-lg font-medium text-[var(--charcoal)] mt-2">2 + 2 ... probably = 4</p>
+              <p className="type-body text-[var(--charcoal)]/80 mt-2">It predicts that "4" usually comes next, because it has seen that pattern millions of times. Right answer, no arithmetic.</p>
+            </div>
+          </div>
+          <Callout label="TRY IT: PEANUT BUTTER AND ______" tone="indigo">
+            Most people say jelly. Some say banana. Some say chocolate. None of them is wrong, and not everyone lands in the same place. That's what Claude does with every word. When the answer is in what you gave it, the likely words are the right ones. When it isn't, the likely words can still sound confident, and that's what people call <strong>making things up</strong> (the technical word is <strong>hallucination</strong>).
+          </Callout>
+          <span className="type-label text-[var(--terra)] block mt-10 mb-3">SO, IN PRACTICE</span>
+          <Steps items={[
+            <><strong>Give it the file.</strong> It answers best from what you hand it, not from memory.</>,
+            <><strong>For numbers, ask it to calculate.</strong> "Work it out with a formula or a short program, and show me how." That's why the skills your team built today do their math in code.</>,
+            <><strong>Ask where things came from.</strong> A good answer points to a file, a clause or a row, and says "the files don't say" when they don't.</>,
+          ]} />
+          <Callout label="HOW YOUR DATA STAYS SAFE · THE SHORT VERSION" tone="charcoal">
+            <p><strong>Cowork works on files on your own laptop</strong> and asks permission before it reads a folder.</p>
+            <p className="mt-2"><strong>Connectors sign in as you</strong>, so they can't see anything you can't already see.</p>
+            <p className="mt-2"><strong>Anthropic doesn't train on your business data by default.</strong></p>
+            <p className="mt-3 text-[var(--charcoal)]/70">What ClaimFox connects, and which real files go in, is Heidy's call. Ask her first.</p>
+          </Callout>
+        </>
+      ),
+    },
+    {
+      id: "fig-cheat-moves", title: "Three more prompt moves", eyebrow: "CHEAT SHEET · 3 OF 3",
+      content: (
+        <>
+          <p className="type-body-lg text-[var(--charcoal)]/85 mt-4 max-w-[860px]">These come from our Cowork workshops. They build on the four habits in Part 2. Paste any of them before a task that matters.</p>
+          <span className="type-label text-[var(--terra)] block mt-8 mb-1">1 · ASK FOR THE WORDS FIRST</span>
+          <p className="type-body text-[var(--charcoal)]/80 max-w-[860px]">When a task is outside your lane, your first prompt is about the subject, not the task. Then use those words in your real prompt.</p>
+          <Prompt code={`I need to make a really good [thing outside my expertise]. What are the five words an expert would use to describe what makes one great? Explain each in a sentence.`} />
+          <span className="type-label text-[var(--terra)] block mt-8 mb-1">2 · THE 10-QUESTION CHECK</span>
+          <p className="type-body text-[var(--charcoal)]/80 max-w-[860px]">The fastest version of Habit 1. It makes Claude find what it doesn't know before it starts.</p>
+          <Prompt code={`Ask me 10 questions before you get started.`} />
+          <span className="type-label text-[var(--terra)] block mt-8 mb-1">3 · THE PANEL OF EXPERTS</span>
+          <p className="type-body text-[var(--charcoal)]/80 max-w-[860px]">Our favorite. You get three points of view on your plan before any work starts.</p>
+          <Prompt code={`Call up a panel of 3 experts in this field, each with a different persona. Have them read my request and my goal, and have each one ask me a few questions from their own expertise.`} />
+          <ProTip>Two minutes of questions up front saves twenty minutes of fixing afterward.</ProTip>
+        </>
+      ),
+    },
+  ],
+};
+
 const sAfter: Section = {
   id: "fig-after", num: "Next", group: "After today", title: "This afternoon, and this week", shortTitle: "Next",
   slides: [
@@ -439,11 +609,11 @@ const sAfter: Section = {
               </div>
             ))}
           </div>
-          <Callout label="WHEN IN DOUBT" tone="indigo">Start with the prompt card from Part 2, and ask: <em>"Where did that come from?"</em></Callout>
+          <Callout label="WHEN IN DOUBT" tone="indigo">Start with the prompt card from Part 2, and ask: <em>"Where did that come from?"</em> For the words you'll hear today, see the cheat sheet.</Callout>
         </>
       ),
     },
   ],
 };
 
-export const SECTIONS: Section[] = [sStart, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, sAfter];
+export const SECTIONS: Section[] = [sStart, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, sAfter, sCheat];
