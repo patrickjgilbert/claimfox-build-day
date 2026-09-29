@@ -23,8 +23,16 @@ TMP.mkdir(parents=True, exist_ok=True)
 
 
 def shoot(html_path, png_path, width=1400, height=2400):
+    # The wait loop below keys off the PNG existing, so a leftover file from an
+    # earlier run would be returned as-is. Clear it, and require an absolute
+    # source path: a relative one becomes file://relative/... and Chrome
+    # screenshots its own "site can't be reached" page.
+    Path(png_path).unlink(missing_ok=True)
+    html_path = Path(html_path).resolve()
+    if not html_path.exists():
+        raise FileNotFoundError(html_path)
     p = subprocess.Popen([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",
-                          f"--screenshot={png_path}", f"--window-size={width},{height}", f"file://{html_path}"],
+                          f"--screenshot={png_path}", f"--window-size={width},{height}", html_path.as_uri()],
                          stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     for _ in range(40):
         time.sleep(0.5)

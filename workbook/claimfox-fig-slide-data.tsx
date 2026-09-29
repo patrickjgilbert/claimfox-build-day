@@ -151,7 +151,7 @@ const s3: Section = {
             expect="A PDF appears in your practice folder. Claude tells you it's there, and you can click to open it."
           />
           <Prompt label="Same conversation, paste this" code={`Turn that into a one-page PDF I could print and hand to my leadership team. Use navy and orange. Save it in this folder.`} />
-          <Shot src={`${IMG}/fig-onepager.png`} alt="A one-page leadership update summary in navy and orange" w={1600} h={862} max={860} caption="What came back when we tried it: a one-page PDF in the practice folder." />
+          <Shot src={`${IMG}/fig-onepager.png`} alt="A one-page leadership update summary in navy and orange" w={1800} h={1482} max={860} caption="What came back when we tried it: a one-page PDF in the practice folder." />
           <ProTip>Don't like something? Say so: "make the Needs you box bigger," "add the dates at the top." It changes the file.</ProTip>
         </>
       ),
