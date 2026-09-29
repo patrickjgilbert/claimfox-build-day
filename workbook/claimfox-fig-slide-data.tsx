@@ -15,6 +15,12 @@ import { SectionHero, Callout, WWE, Steps, Shot, Prompt, HOST, IMG } from "@/dec
      "has always been looking for".
    So: clicks first, one idea at a time, on her own keyboard, assuming nothing.
    Practice files are fictional (the ClaimFox practice pack).
+
+   Part 2 (added Sep 28 at Patrick's request) teaches her how to get better
+   answers, not just what's possible: let it interview you, brief it like a new
+   hire, ask for options and steer, have it check the work, plus a prompt card.
+   Part 2 shows no sample outputs: nothing there was run in a clean Claude app
+   session, so the "expect" lines describe what to look for instead.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const FIG_ZIP = `https://${HOST}/claimfox-files/claimfox-fig-practice.zip`;
@@ -31,20 +37,22 @@ function ClaudeSaid({ children }: { children: React.ReactNode }) {
 
 const F = ({ children }: { children: React.ReactNode }) => <span className="font-mono text-[14px] bg-[var(--charcoal)]/[.06] px-1.5 py-0.5 rounded-sm">{children}</span>;
 
-const G = "Your first hour";
+const G = "Part 1 · What it can do";
+const G2 = "Part 2 · Better answers";
 
 const sStart: Section = {
   id: "fig-start", num: "Start", group: G, title: "Before we start", shortTitle: "Start",
   slides: [
     {
       id: "fig-title", title: "Your first hour with Claude", titleHidden: true, dark: true, isHero: true,
-      content: <SectionHero eyebrow="FIG · ONE-ON-ONE · SEPTEMBER 29" line1="Your first hour" line2="with Claude." sub="Six short exercises on your own keyboard. No jargon. By the end you'll have done, yourself, the things your team is building on today." />,
+      content: <SectionHero eyebrow="FIG · ONE-ON-ONE · SEPTEMBER 29" line1="Your first hour" line2="with Claude." sub="Part 1: six short exercises that show what it can do. Part 2: four habits that get you better answers. All on your own keyboard. No jargon." />,
     },
     {
       id: "fig-why", title: "What we're doing, and why", eyebrow: "BEFORE WE START",
       content: (
         <>
           <p className="type-body-lg text-[var(--charcoal)]/85 mt-4 max-w-[860px]">Your team is going to show you what they built this afternoon. This hour is so you know what they're talking about, because you've done it yourself. Not so you can build it. So you can follow it, ask good questions, and use it in your own week.</p>
+          <p className="type-body-lg text-[var(--charcoal)]/85 mt-4 max-w-[860px]"><strong>Part 1</strong> shows you what it can do. <strong>Part 2</strong> is how you get better at it: four habits that turn a so-so answer into one you'd actually use.</p>
           <Callout label="THE ONLY TWO THINGS TO REMEMBER" tone="terra">
             <p><strong>1. Talk to it like a very capable new assistant on their first day.</strong> Smart, fast, and knows nothing about ClaimFox. Tell it who you are, what you want, and what the result should look like.</p>
             <p className="mt-3"><strong>2. It only knows what you show it, and it's not a calculator.</strong> Give it the file. For numbers, ask it to work them out properly and show you how. Exercise 6 shows why.</p>
@@ -241,6 +249,152 @@ const s6: Section = {
   ],
 };
 
+
+/* ── PART 2 · BETTER ANSWERS ─────────────────────────────────────────────── */
+
+const s7: Section = {
+  id: "fig-7", num: "7", group: G2, title: "Let it interview you", shortTitle: "7 · Interview me",
+  slides: [
+    {
+      id: "fig-part2", title: "Part 2 · Getting better answers", titleHidden: true, dark: true, isHero: true,
+      content: <SectionHero eyebrow="PART 2 · FOUR HABITS" line1="Getting better" line2="answers." sub="Part 1 showed what it can do. This part is how you get good at it. Each habit takes one sentence, and you'll use them every day." />,
+    },
+    {
+      id: "fig-7-a", title: "Habit 1 · Let it interview you", eyebrow: "PART 2 · HABIT 1 OF 4 · 7 MINUTES",
+      content: (
+        <>
+          <WWE
+            what="Give Claude a real task, and tell it to ask you questions before it writes anything."
+            why="Answers come back generic when Claude is missing what's in your head. Letting it ask is the fastest way to get it out of your head, and you don't have to know what to include."
+            expect="One question at a time. After your fifth answer, a draft that reads like it came from someone who was in the room."
+          />
+          <Steps items={[
+            <>Click <strong>New</strong>. Make sure the toggle says <strong>Chat</strong>.</>,
+            <>Paste the prompt below and press <strong>Enter</strong>.</>,
+            <>Answer each question in a sentence or two, the way you'd answer a text. Short is fine.</>,
+            <>When the draft appears, tell it what to change. You're the editor now.</>,
+          ]} />
+          <Prompt label="Paste this" code={`I need to write a short note to my leadership team about the AI build day we just had and what happens next. Before you write anything, interview me. Ask me one question at a time, wait for my answer, and stop after five questions. Then write the note.`} />
+          <ProTip>Use this whenever you'd normally think "let me figure out what to include": a board update, a tough conversation, a job description. Prefer to answer everything at once? Say "ask me all your questions in a numbered list first."</ProTip>
+        </>
+      ),
+    },
+  ],
+};
+
+const s8: Section = {
+  id: "fig-8", num: "8", group: G2, title: "Brief it like a new hire", shortTitle: "8 · Brief it",
+  slides: [
+    {
+      id: "fig-8-a", title: "Habit 2 · Brief it like a new hire", eyebrow: "PART 2 · HABIT 2 OF 4 · 8 MINUTES",
+      content: (
+        <>
+          <WWE
+            what="Ask for the same email twice: once in one line, once with a proper brief. Then compare."
+            why="The brief takes a minute longer to type and saves you three rounds of fixing. This habit makes the biggest difference of the four."
+            expect="The one-line version comes back with questions for you, or a generic email full of blanks to fill in. The briefed version comes back close to ready to send."
+          />
+          <Prompt label="Try 1 · New chat, paste this" code={`Write an email to our client Harborline about our turnaround times.`} />
+          <Prompt label="Try 2 · New chat, paste this" code={`I'm the CEO of ClaimFox. We retrieve claim-file records for auto and workers' comp insurance carriers. I'm writing to the VP of Claims at Harborline Mutual, one of our biggest clients.
+
+The situation: our contract promises 5-day turnaround. Since July we've been on time 49% of the time, down from 81% in the first half of the year, and we're averaging 5.8 days. We've already moved two more people onto their account.
+
+What I want: a short email that owns the problem, says what we've already done, and asks for a 20-minute call next week to walk through a recovery plan.
+
+Tone: direct and warm. No corporate language, no over-apologizing. Under 150 words.
+
+Don't promise a date for being back on track, and don't blame volume.`} />
+          <p className="type-body-sm text-[var(--charcoal)]/55 mt-2">The Harborline numbers come from the practice files. They're made up.</p>
+          <Callout label="THE FIVE THINGS A GOOD BRIEF COVERS" tone="terra">
+            <div className="grid md:grid-cols-[210px_1fr] gap-x-6 gap-y-3">
+              <strong>Who you are</strong><span>"I'm the CEO of ClaimFox..."</span>
+              <strong>Who it's for</strong><span>"...the VP of Claims at Harborline, one of our biggest clients."</span>
+              <strong>The facts</strong><span>The numbers and what's already been done. It can't know these unless you say them.</span>
+              <strong>What good looks like</strong><span>Length, tone, and what the reader should do next.</span>
+              <strong>What to avoid</strong><span>"Don't promise a date. Don't blame volume."</span>
+            </div>
+          </Callout>
+          <ProTip>You don't need all five every time. When an answer misses, one of the five is usually what's missing.</ProTip>
+        </>
+      ),
+    },
+  ],
+};
+
+const s9: Section = {
+  id: "fig-9", num: "9", group: G2, title: "Ask for options, then steer", shortTitle: "9 · Options",
+  slides: [
+    {
+      id: "fig-9-a", title: "Habit 3 · Ask for options, then steer", eyebrow: "PART 2 · HABIT 3 OF 4 · 5 MINUTES",
+      content: (
+        <>
+          <WWE
+            what="Ask for three different versions, pick one, and tell it exactly what to change."
+            why="It's easier to react than to describe what you want from scratch. You'll know the right one when you see it."
+            expect="Three short versions labeled A, B and C. Then your pick comes back with only the changes you asked for."
+          />
+          <Prompt label="Same conversation as Try 2, paste this" code={`Give me three versions of that email. A: short and direct. B: warmer. C: leads with the fix. Label them.`} />
+          <Prompt label="Then pick one, for example" code={`Use B. Cut the first sentence, and end by offering two times for the call.`} />
+          <ProTip>Be specific about changes. "Make it better" gets a guess. "Shorter, and lose the second paragraph" gets exactly that. Another good one: paste something you wrote that you liked and say "match this style."</ProTip>
+        </>
+      ),
+    },
+  ],
+};
+
+const s10: Section = {
+  id: "fig-10", num: "10", group: G2, title: "Have it check the work", shortTitle: "10 · Check it",
+  slides: [
+    {
+      id: "fig-10-a", title: "Habit 4 · Have it check the work", eyebrow: "PART 2 · HABIT 4 OF 4 · 5 MINUTES",
+      content: (
+        <>
+          <WWE
+            what="Before you send it, ask Claude to read it as the person receiving it."
+            why="It will catch what the reader would push back on while you can still fix it. Same instinct as exercise 6: don't treat the first answer as final."
+            expect="Two or three specific points, like a missing detail or a line that sounds defensive, then a fixed version."
+          />
+          <Prompt label="Same conversation, paste this" code={`Before I send this, read it as Harborline's VP of Claims. What would bother them, what's missing, and what would they ask me on the call? Then fix the email.`} />
+          <ProTip>This works on anything your team hands you, too: "What would a skeptical board member ask about this?"</ProTip>
+        </>
+      ),
+    },
+    {
+      id: "fig-card", title: "Your prompt card", eyebrow: "KEEP THIS",
+      content: (
+        <>
+          <p className="type-body-lg text-[var(--charcoal)]/85 mt-4 max-w-[860px]">Copy this into a note on your phone or laptop. Fill in the brackets, and you have a good brief for almost anything.</p>
+          <Prompt label="The template" code={`I'm [who you are]. I need [what you want] for [who it's for].
+
+Background: [the facts it needs to know].
+
+Good looks like: [length, tone, format, and what the reader should do next].
+
+Don't: [anything to avoid].
+
+Before you start, ask me anything you need to know.`} />
+          <span className="type-label text-[var(--terra)] block mt-10 mb-3">WHEN AN ANSWER ISN'T RIGHT, TRY ONE OF THESE</span>
+          <div className="border border-[var(--charcoal)]/15">
+            {[
+              ["It's generic", "\"Interview me first. One question at a time.\""],
+              ["You're not sure what you want", "\"Give me three different versions.\""],
+              ["It's close but not right", "Say exactly what to change: \"Shorter. Lose the second paragraph.\""],
+              ["You're about to send it", "\"Read this as [the reader]. What's missing?\""],
+              ["You don't trust a fact or number", "\"Where did that come from? Show me how you worked it out.\""],
+              ["You don't know how to ask", "\"Here's what I'm trying to do. Write me a better prompt for it, then run it.\""],
+            ].map(([when, say]) => (
+              <div key={when} className="grid md:grid-cols-[260px_1fr] gap-3 px-5 py-4 border-b border-[var(--charcoal)]/10 last:border-b-0">
+                <span className="type-body font-medium text-[var(--charcoal)]">{when}</span>
+                <span className="type-body text-[var(--charcoal)]/80 italic">{say}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      ),
+    },
+  ],
+};
+
 const sAfter: Section = {
   id: "fig-after", num: "Next", group: "After today", title: "This afternoon, and this week", shortTitle: "Next",
   slides: [
@@ -285,11 +439,11 @@ const sAfter: Section = {
               </div>
             ))}
           </div>
-          <Callout label="WHEN IN DOUBT" tone="indigo">Ask it: <em>"Where did that come from?"</em></Callout>
+          <Callout label="WHEN IN DOUBT" tone="indigo">Start with the prompt card from Part 2, and ask: <em>"Where did that come from?"</em></Callout>
         </>
       ),
     },
   ],
 };
 
-export const SECTIONS: Section[] = [sStart, s1, s2, s3, s4, s5, s6, sAfter];
+export const SECTIONS: Section[] = [sStart, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, sAfter];

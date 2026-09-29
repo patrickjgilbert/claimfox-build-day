@@ -107,11 +107,30 @@ export function Steps({ items }: { items: React.ReactNode[] }) {
   );
 }
 
+/* Images sit behind the password gate (middleware.ts). A tab opened before the
+   gate went live, or one whose cookie expired, still has the workbook text in
+   memory but gets the login page back for each image. If that happens, reload
+   once so the person sees the password screen instead of broken images. */
+function reloadIfGated(src: string) {
+  fetch(src, { method: "HEAD", cache: "no-store" })
+    .then((r) => {
+      if (r.status !== 401) return;
+      try {
+        if (sessionStorage.getItem("cf-gate-reload")) return;
+        sessionStorage.setItem("cf-gate-reload", "1");
+      } catch {
+        /* storage blocked: reload anyway, the login page stops any loop */
+      }
+      window.location.reload();
+    })
+    .catch(() => {});
+}
+
 export function Shot({ src, alt, w, h, caption = "Rendered from the actual output file of our practice run.", max = 1100 }: { src: string; alt: string; w: number; h: number; caption?: string; max?: number }) {
   return (
     <figure className="mt-8" style={{ maxWidth: max }}>
       <div className="border border-[var(--charcoal)]/15 rounded-sm overflow-hidden bg-white shadow-sm">
-        <img src={src} alt={alt} width={w} height={h} className="w-full h-auto block" loading="lazy" />
+        <img src={src} alt={alt} width={w} height={h} className="w-full h-auto block" loading="lazy" onError={() => reloadIfGated(src)} onLoad={() => { try { sessionStorage.removeItem("cf-gate-reload"); } catch { /* ignore */ } }} />
       </div>
       <figcaption className="type-body-sm text-[var(--charcoal)]/55 mt-2">{caption}</figcaption>
     </figure>
