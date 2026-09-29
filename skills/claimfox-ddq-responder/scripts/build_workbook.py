@@ -45,6 +45,8 @@ STATUS_COLORS = {
     "stricter": AMBER, "adds": BLUE, "looser": YELLOW, "matches": GREEN, "not specified": YELLOW, "unclear": RED,
     # answers
     "prior answer": GREEN, "drawn from policy": BLUE, "conflict": RED, "needs review": YELLOW,
+    # quality check
+    "contradiction": RED, "vague": AMBER, "incomplete": YELLOW, "ambiguous question": BLUE,
     # test results
     "pass": GREEN, "fail": RED, "blocked": YELLOW, "not run": GREY,
     # generic
