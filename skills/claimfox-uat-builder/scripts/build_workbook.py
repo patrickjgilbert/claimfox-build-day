@@ -13,7 +13,7 @@ Spec (every key except "sheets" is optional):
       "name": "Sheet name (max 31 chars)",
       "columns": ["ID", "Item", "Amount", "Due", "Status", "Result"],
       "rows": [["A-1", "Example", 1250.5, "2026-10-09", "Needs review", ""]],
-      "status_columns": ["Status"],                   # cells colored by value (see STATUS_COLORS)
+      "status_columns": ["Status"],                   # cells colored by value or leading word, e.g. "Stricter: 24h" (see STATUS_COLORS)
       "status_colors": {"My value": "FFF2CC"},        # add or override colors
       "formats": {"Amount": "currency", "Due": "date", "Rate": "percent", "Count": "integer"},
       "dropdowns": {"Result": ["Pass", "Fail", "Blocked", "Not run"]},
@@ -101,7 +101,7 @@ def main(spec_path, out_path):
             for j in sidx:
                 if j - 1 < len(row):
                     val = str(row[j - 1]).strip().lower()
-                    key = next((k for k in colors if val == k or val.startswith(k + " ")), None)
+                    key = next((k for k in colors if val == k or val.startswith((k + " ", k + ":"))), None)
                     if key:
                         c = ws.cell(i, j)
                         c.fill = PatternFill("solid", fgColor=colors[key])
