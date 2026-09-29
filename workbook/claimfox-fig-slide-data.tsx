@@ -1,6 +1,6 @@
 import type { Section } from "@/workshop-shared";
-import { CodeBlock, ProTip } from "@/workshop-shared";
-import { SectionHero, Callout, WWE, Steps, Shot, HOST, IMG } from "@/decks/claimfox-slide-data";
+import { ProTip } from "@/workshop-shared";
+import { SectionHero, Callout, WWE, Steps, Shot, Prompt, HOST, IMG } from "@/decks/claimfox-slide-data";
 
 /* ═══════════════════════════════════════════════════════════════════════════
    FIG'S FIRST HOUR WITH CLAUDE · CLAIMFOX BUILD DAY · SEPTEMBER 29, 2026
@@ -98,7 +98,7 @@ const s2: Section = {
             <>Make sure the toggle under the box says <strong>Chat</strong>.</>,
             <>Click in the box, paste the question below, and press <strong>Enter</strong>.</>,
           ]} />
-          <CodeBlock label="Paste this" code={`I'm the CEO of a company that handles claim-file record requests for auto and workers' comp insurance carriers. In plain English, what could you help me with in a normal week? Five bullet points, no jargon.`} />
+          <Prompt label="Paste this" code={`I'm the CEO of a company that handles claim-file record requests for auto and workers' comp insurance carriers. In plain English, what could you help me with in a normal week? Five bullet points, no jargon.`} />
           <ClaudeSaid>
             <ul className="space-y-2">
               <li>• <strong>Read the long stuff for you.</strong> Email threads, reports and contracts, boiled down to what needs your attention.</li>
@@ -108,7 +108,7 @@ const s2: Section = {
               <li>• <strong>Pull your team's updates into one page</strong>, so you see the week in two minutes.</li>
             </ul>
           </ClaudeSaid>
-          <CodeBlock label="Now type this, in the same conversation" code={`Make that three bullets, and put the one that would save me the most time first.`} />
+          <Prompt label="Now type this, in the same conversation" code={`Make that three bullets, and put the one that would save me the most time first.`} />
           <ProTip>Notice you didn't repeat yourself. It kept the context. When an answer isn't right, don't start over. Tell it what to change.</ProTip>
         </>
       ),
@@ -133,7 +133,7 @@ const s3: Section = {
             <>Click the <strong>folder icon</strong> under the box, and choose <F>ClaimFox practice - Fig</F> on your Desktop.</>,
             <>Paste the prompt below and press <strong>Enter</strong>. It may ask permission to read the folder. Say yes.</>,
           ]} />
-          <CodeBlock label="Paste this" code={`Read the leadership updates file in this folder. Summarize it in five bullets, and tell me which items need me this week.`} />
+          <Prompt label="Paste this" code={`Read the leadership updates file in this folder. Summarize it in five bullets, and tell me which items need me this week.`} />
           <ClaudeSaid>
             <ul className="space-y-2">
               <li>• <strong>Harborline is running behind.</strong> Amanda says turnaround averaged 5.8 days against a 5-day contract; she moved two people to help.</li>
@@ -162,7 +162,7 @@ const s4: Section = {
             why="You don't just get text back. It makes real files: PDFs, spreadsheets, Word documents. This is how a report gets made."
             expect="A PDF appears in your practice folder. Claude tells you it's there, and you can click to open it."
           />
-          <CodeBlock label="Same conversation, paste this" code={`Turn that into a one-page PDF I could print and hand to my leadership team. Use navy and orange. Save it in this folder.`} />
+          <Prompt label="Same conversation, paste this" code={`Turn that into a one-page PDF I could print and hand to my leadership team. Use navy and orange. Save it in this folder.`} />
           <Shot src={`${IMG}/fig-onepager.png`} alt="A one-page leadership update summary in navy and orange" w={1600} h={862} max={860} caption="What came back when we tried it: a one-page PDF in the practice folder." />
           <ProTip>Don't like something? Say so: "make the Needs you box bigger," "add the dates at the top." It changes the file.</ProTip>
         </>
@@ -183,7 +183,7 @@ const s5: Section = {
             why="This is the thing you've wanted for a long time: ask questions about all your clients and get the answer, without asking someone to build a report."
             expect="A direct answer, a small table, and a short explanation of how it worked the numbers out."
           />
-          <CodeBlock label="Same folder, new conversation. Paste this" code={`Look at the request data in this folder. Which carrier client sent us the most requests this year, and whose on-time rate dropped the most since the first half of the year? Show me a small table, and tell me in one sentence how you worked it out.`} />
+          <Prompt label="Same folder, new conversation. Paste this" code={`Look at the request data in this folder. Which carrier client sent us the most requests this year, and whose on-time rate dropped the most since the first half of the year? Show me a small table, and tell me in one sentence how you worked it out.`} />
           <ClaudeSaid>
             <p><strong>Harborline Mutual</strong> sent the most requests this year, <strong>862</strong>, well ahead of Granite Shield at 486. Harborline also dropped the most: on time <strong>81%</strong> of the time in January to June, and <strong>49%</strong> since July.</p>
             <table className="mt-4 text-[15px] w-full max-w-[560px]">
@@ -218,7 +218,7 @@ const s6: Section = {
           <Callout label="THE IDEA, IN THREE SENTENCES" tone="terra">
             Claude doesn't look things up the way a person does. It writes the most likely next words, very well. When it knows the answer from what you gave it, that's great. When it doesn't, the most likely words can still sound confident, and that's what people call "making things up."
           </Callout>
-          <CodeBlock label="Same conversation, paste this" code={`What did Beacon Casualty's CEO say about why they're sending us less work?`} />
+          <Prompt label="Same conversation, paste this" code={`What did Beacon Casualty's CEO say about why they're sending us less work?`} />
           <ClaudeSaid>
             <p>Nothing in these files says that. The only mention of Beacon is in Amanda's update: its volume "basically dried up, maybe 10 requests all week." The request data shows Beacon's volume fell from about 45 a month in March and April to 12 to 18 a month since May. It doesn't say why.</p>
           </ClaudeSaid>

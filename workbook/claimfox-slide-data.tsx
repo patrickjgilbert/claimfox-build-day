@@ -21,6 +21,26 @@ export const IMG = "/images/claimfox";
 
 /* ─── shared bits (Fig's workbook imports these too) ────────────────────── */
 
+/** Prompts are single paragraphs; the code block doesn't wrap, so hard-wrap for display. */
+export function wrapText(s: string, width = 78): string {
+  return s.split("\n").map((line) => {
+    const words = line.split(" ");
+    const out: string[] = [];
+    let cur = "";
+    for (const w of words) {
+      if ((cur + " " + w).trim().length > width) { out.push(cur.trim()); cur = w; }
+      else cur = (cur + " " + w).trim();
+    }
+    out.push(cur);
+    return out.join("\n");
+  }).join("\n");
+}
+
+export function Prompt({ label, code }: { label?: string; code: string }) {
+  return <CodeBlock label={label} code={wrapText(code)} />;
+}
+
+
 export function SectionHero({ eyebrow, line1, line2, sub }: { eyebrow: string; line1: string; line2?: string; sub: string }) {
   return (
     <div className="min-h-[46vh] flex flex-col justify-center py-8">
@@ -188,7 +208,7 @@ function personSection(p: Person): Section {
               <>Click the folder icon under the prompt box and choose the <F>claimfox-practice-data</F> folder on your Desktop.</>,
               <>Paste the prompt below and press Enter. Let it work. It will tell you what it's doing as it goes.</>,
             ]} />
-            <CodeBlock label="Paste this" code={p.run.prompt} />
+            <Prompt label="Paste this" code={p.run.prompt} />
             <Expect items={p.run.results} />
             <Shot {...p.run.shot} />
             {p.run.tip && <ProTip>{p.run.tip}</ProTip>}
@@ -200,7 +220,7 @@ function personSection(p: Person): Section {
         content: (
           <>
             <WWE what={p.follow.what} why={p.follow.why} expect={p.follow.expect} />
-            <CodeBlock label="Same task, paste this next" code={p.follow.prompt} />
+            <Prompt label="Same task, paste this next" code={p.follow.prompt} />
             {p.follow.shot && <Shot {...p.follow.shot} />}
           </>
         ),
@@ -215,7 +235,7 @@ function personSection(p: Person): Section {
               expect="An updated skill file that Claude hands you to upload, replacing the old one. After that, every run uses your real rules."
             />
             <Checklist items={p.yours} />
-            <CodeBlock label="How to update the skill: paste this with the file attached" code={`Update my ${p.skill} skill. Replace the SAMPLE reference with the file I've attached, keep everything else the same, and give me the updated skill as a zip I can upload.`} />
+            <Prompt label="How to update the skill: paste this with the file attached" code={`Update my ${p.skill} skill. Replace the SAMPLE reference with the file I've attached, keep everything else the same, and give me the updated skill as a zip I can upload.`} />
             <ProTip>Open the skill any time (Customize, then Skills) and read it. It's plain English. If a rule isn't written down in there, Claude is guessing.</ProTip>
           </>
         ),
@@ -229,7 +249,7 @@ function personSection(p: Person): Section {
               why="The practice data proves the skill works. A real file proves it works on ClaimFox's reality, which is always messier."
               expect="Something will be a little off the first time. That's the point of the second pass: we fix it together, and teach the skill so it's right next time."
             />
-            <CodeBlock label="Paste this, with the real file in the folder" code={p.real.prompt} />
+            <Prompt label="Paste this, with the real file in the folder" code={p.real.prompt} />
             <Callout label="CHECK THESE BEFORE YOU TRUST IT" tone="charcoal">
               <ul className="space-y-2">{p.real.check.map((c, i) => <li key={i}>• {c}</li>)}</ul>
             </Callout>
@@ -375,7 +395,7 @@ const barbara = personSection({
   heroSub: "Read a client agreement and every amendment, pull out every requirement with the clause it came from, and flag everything that differs from how ClaimFox normally works.",
   brief: <>From your brief: use the SharePoint client-contract folder as the source of truth. Find the right agreement, extract operational, security, compliance, retention, redaction and turnaround requirements into a standard matrix, and flag anything that differs from the standard process. Later this becomes the base for client audits, SOPs and a security Q&amp;A.</>,
   v1: "A matrix for one real client: every requirement, the clause it came from, and a status of Stricter, Looser, Matches, Adds, Not specified or Unclear against ClaimFox's standard.",
-  example: { src: `${IMG}/barbara-portfolio.png`, alt: "Portfolio sheet comparing two clients' contract requirements side by side, color-coded by status", w: 1600, h: 943 },
+  example: { src: `${IMG}/barbara-portfolio.png`, alt: "Portfolio sheet comparing two clients' contract requirements side by side, color-coded by status", w: 1600, h: 668 },
   run: {
     prompt: `Build the contract requirements for Harborline Mutual and Tri-County Workers' Comp Fund. Their documents are in the contracts folder.`,
     what: "Claude reads two practice clients' contracts, including a later amendment, and builds the matrix.",
@@ -387,7 +407,7 @@ const barbara = personSection({
       <>Harborline marked <strong>PROVISIONAL</strong>, because the contract mentions an Exhibit B and an Amendment No. 1 that weren't in the folder.</>,
       <>Tri-County's court-order deadline, "handled promptly," marked <strong>Unclear</strong> rather than turned into a number.</>,
     ],
-    shot: { src: `${IMG}/barbara-matrix.png`, alt: "Harborline contract matrix with requirement, contract language, source clause and status columns", w: 1600, h: 1164 },
+    shot: { src: `${IMG}/barbara-matrix.png`, alt: "Harborline contract matrix with requirement, contract language, source clause and status columns", w: 1600, h: 722 },
     tip: "If it asks for the missing Exhibit B, tell it to go ahead without it and mark the matrix provisional. That's the right call today.",
   },
   follow: {
@@ -414,7 +434,7 @@ const chris = personSection({
   heroSub: "Draft security questionnaire answers from approved policies and prior approved answers only. Every answer points to its source. Anything without one goes to a person.",
   brief: <>From your brief: take an incoming security DDQ and draft responses using approved policies, prior approved answers and supporting evidence. Flag questions that still need review, and point back to the source for each answer. Longer term, automate more of the DDQ and policy-review workflow.</>,
   v1: "A real DDQ filled in with sourced answers, a review sheet showing where each answer came from, and a list of what still needs a person.",
-  example: { src: `${IMG}/chris-review.png`, alt: "DDQ review sheet with each question, draft answer, status, source and exact source text", w: 1600, h: 1400 },
+  example: { src: `${IMG}/chris-review.png`, alt: "DDQ review sheet with each question, draft answer, status, source and exact source text", w: 1600, h: 920 },
   run: {
     prompt: `Pioneer Standard sent us this DDQ, due Oct 9. It's in the ddq folder, along with our policies and our approved answer bank. Draft the responses.`,
     what: "Claude reads a 24-question practice DDQ, five policies (one of them a draft) and a bank of past answers.",
@@ -426,7 +446,7 @@ const chris = personSection({
       <>The AI question <strong>left blank</strong>. The only source was a policy marked DRAFT, and drafts don't count.</>,
       <>A list of topics with no policy at all (backups, business continuity, physical security), which doubles as a to-do list of policies to write.</>,
     ],
-    shot: { src: `${IMG}/chris-owners.png`, alt: "Questions for owners sheet listing each open item, its owner and a reply-by date", w: 1600, h: 1375 },
+    shot: { src: `${IMG}/chris-owners.png`, alt: "Questions for owners sheet listing each open item, its owner and a reply-by date", w: 1600, h: 706 },
   },
   follow: {
     prompt: `Draft a short email to each owner with just their open questions, and a reply-by date of October 6.`,
@@ -464,7 +484,7 @@ const finance = personSection({
       <>A <strong>missing check number</strong>, and a check recorded at $3,215 that cleared the bank at $3,251, against a $3,500 bill.</>,
       <>Each account swing linked to its likely cause, so you see the real issues and not twenty rows.</>,
     ],
-    shot: { src: `${IMG}/gl-proof.png`, alt: "Proof tab showing each total as a live Excel formula next to the script's result", w: 1600, h: 902 },
+    shot: { src: `${IMG}/gl-proof.png`, alt: "Proof tab showing each total as a live Excel formula next to the script's result", w: 1600, h: 884 },
     tip: "Scott: open the Proof tab and click any number in column B. It's a plain SUM or SUMIF over the raw rows. Nothing to take on faith.",
   },
   follow: {
@@ -542,7 +562,7 @@ const michelle = personSection({
       <>Portal login is RecordPoint's top ticket reason. Many of the unpaid invoices are on requests that had a login ticket.</>,
       <>Morrison &amp; Pratt pays fine. Its problem is duplicate requests.</>,
     ],
-    shot: { src: `${IMG}/michelle-watchlist.png`, alt: "Archive watchlist listing each invoice near its archive date with amount and days left", w: 1600, h: 723 },
+    shot: { src: `${IMG}/michelle-watchlist.png`, alt: "Archive watchlist listing each invoice near its archive date with amount and days left", w: 1600, h: 583 },
     tip: "The two-year archive rule isn't final yet, so every card shows the rule it used. Change it by saying so: 'use 18 months.'",
   },
   follow: {
@@ -570,7 +590,7 @@ const mary = personSection({
   heroSub: "Turn a change ticket into a complete test package, and find what the ticket forgot to say before it reaches production.",
   brief: <>From your brief: take an EREQ ticket or change description and generate the UAT test plan and script, with a reusable test-case structure by system module, expected results, and a consistent severity and triage rubric. Later, explore having Claude do some of the testing.</>,
   v1: "A UAT workbook for one real EREQ that a tester could run from, plus the open questions for the ticket owner.",
-  example: { src: `${IMG}/mary-summary.png`, alt: "UAT Summary sheet with live counts of cases by module and risk, open questions and exit criteria", w: 1600, h: 1326 },
+  example: { src: `${IMG}/mary-summary.png`, alt: "UAT Summary sheet with live counts of cases by module and risk, open questions and exit criteria", w: 1600, h: 1110 },
   run: {
     prompt: `Build the UAT package for EREQ-2147. The ticket is in the ereq folder and the client contracts are in the contracts folder.`,
     what: "Claude reads a practice ticket for a new $35 expedite option, maps everything it touches, and checks it against client contracts.",
@@ -581,14 +601,14 @@ const mary = personSection({
       <>The headline catch: the new 2-day expedite clock replaces the client's own deadline, so for some Harborline subpoenas it would <strong>make the due date later than the contract allows</strong>.</>,
       <>Every expected due date calculated by a business-day calculator that handles weekends, holidays, the 5pm cutoff and time zones.</>,
     ],
-    shot: { src: `${IMG}/mary-cases.png`, alt: "Test cases sheet with steps, expected results, risk and a Result dropdown", w: 1600, h: 1141 },
+    shot: { src: `${IMG}/mary-cases.png`, alt: "Test cases sheet with steps, expected results, risk and a Result dropdown", w: 1600, h: 709 },
   },
   follow: {
     prompt: `A requestor in California submits an expedited request at 3pm Pacific on the Friday before Thanksgiving week. When is it due?`,
     what: "Ask it a date question you'd normally work out on a calendar.",
     why: "Due dates are where testing goes wrong by hand. It runs the calculator instead of guessing.",
     expect: "A specific date, with the rule it applied (after cutoff in Eastern time, so the clock starts Monday).",
-    shot: { src: `${IMG}/mary-duedates.png`, alt: "Due-date matrix showing due dates for each clock and receipt time", w: 1600, h: 590 },
+    shot: { src: `${IMG}/mary-duedates.png`, alt: "Due-date matrix showing due dates for each clock and receipt time", w: 1600, h: 465 },
   },
   yours: [
     { what: "The real list of Ecosystem modules and the checks you always run", where: <>Replaces <F>references/modules.SAMPLE.md</F></> },
