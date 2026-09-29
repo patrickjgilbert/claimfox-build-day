@@ -1,0 +1,23 @@
+account,account_name,type,normal_balance,usage_notes
+1000,Operating Cash - First Harbor Bank,Asset,Debit,Main operating account. Every deposit and disbursement.
+1100,Accounts Receivable - Carriers,Asset,Debit,Carrier service fees billed monthly.
+1150,Accounts Receivable - Requestors,Asset,Debit,Copy fees billed to requestors.
+1400,Prepaid Expenses,Asset,Debit,"Annual contracts paid in advance, amortized monthly."
+2000,Accounts Payable,Liability,Credit,Vendor bills.
+2100,Accrued Expenses,Liability,Credit,Month-end accruals for bills not yet received.
+2200,Accrued Payroll,Liability,Credit,
+4000,Service Revenue - Carriers,Revenue,Credit,Monthly carrier service fees.
+4100,Copy Fee Revenue - Requestors,Revenue,Credit,Fees paid by requestors.
+4200,Licensing Revenue - Clever,Revenue,Credit,Clever by ClaimFox license fees.
+5000,Salaries & Wages,Expense,Debit,
+5100,Payroll Taxes & Benefits,Expense,Debit,
+6100,Office Supplies,Expense,Debit,"Paper, toner, small physical items under $500. NOT software."
+6200,Rent & Occupancy,Expense,Debit,Ronkonkoma office lease only.
+6300,Telephone & Internet,Expense,Debit,"Verizon Business, Optimum Business."
+6420,Software Subscriptions,Expense,Debit,"SaaS: Microsoft 365, HubSpot, Anthropic (Claude), Foxit, Adobe."
+6450,Cloud Hosting,Expense,Debit,AWS and other infrastructure hosting.
+6500,Records Storage & Destruction,Expense,Debit,"Iron Mountain, Shred-Right."
+6600,Professional Fees,Expense,Debit,"Legal, audit, consulting."
+6700,Insurance,Expense,Debit,"Cyber, E&O, general liability."
+6800,Bank Fees,Expense,Debit,"Monthly service charges, wire fees."
+6900,Travel & Meals,Expense,Debit,

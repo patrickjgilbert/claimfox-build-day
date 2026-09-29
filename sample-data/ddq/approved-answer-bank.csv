@@ -1,0 +1,14 @@
+question,approved_answer,source,approved_by,approved_date
+Do you maintain a documented information security program?,"Yes. ClaimFox maintains a documented information security program governed by ISP-01 Information Security Policy, reviewed at least annually.",ISP-01,H. Villarreal,2026-03-20
+Is multi-factor authentication required?,Yes. MFA is required for all remote access and for every system that stores or processes client data.,ISP-02 s.1,H. Villarreal,2026-03-20
+How often are user access reviews performed?,"Quarterly, by system owners, with approval by the Director of Technology.",ISP-02 s.3,H. Villarreal,2026-03-20
+Is data encrypted at rest and in transit?,Yes. AES-256 at rest and TLS 1.2 or higher in transit.,ISP-01 s.5,C. Malanga,2026-04-02
+Where is client data stored?,In AWS US regions only (us-east-1 and us-east-2). No client data is stored or accessed outside the United States.,ISP-01 s.4,C. Malanga,2026-04-02
+Are you SOC 2 audited?,Yes. ClaimFox has completed a SOC 2 Type I examination.,2023 audit letter,Former Security Lead,2023-05-11
+Do employees receive security training?,"Yes, at hire and annually, with quarterly phishing simulations.",ISP-01 s.6,K. French,2026-05-01
+Do you perform background checks?,Yes. All personnel with access to client data complete a criminal background check before starting.,ISP-01 s.7,K. French,2026-05-01
+Do you have an incident response plan?,"Yes. ISP-03 Incident Response Plan, tested annually by tabletop exercise (most recent February 2026).",ISP-03,C. Malanga,2026-02-15
+How quickly do you notify clients of incidents?,"Within 72 hours of confirmation, or sooner where the client contract requires it.",ISP-03 s.3,C. Malanga,2026-02-15
+How long do you retain client records?,Working copies are deleted 30 days after delivery unless a contract requires less. Delivery logs are kept 7 years.,ISP-04,B. Molina,2026-04-05
+Do you carry cyber insurance?,"Yes. ClaimFox carries cyber liability insurance with a $10,000,000 per-occurrence limit.",Certificate of insurance 2026,S. Morck,2026-06-30
+Do you use subcontractors?,ClaimFox does not subcontract record review or redaction. All work is performed by ClaimFox employees in the United States.,Ops attestation,B. Molina,2026-04-05

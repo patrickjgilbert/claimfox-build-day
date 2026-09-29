@@ -1,0 +1,2 @@
+question,approved_answer,source,approved_by,approved_date
+"Example: Is MFA required for all access to client data?","Yes. MFA is required for all remote access and for every system that stores or processes client data.","ISP-02 s.1","[approver]","YYYY-MM-DD"

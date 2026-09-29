@@ -1,0 +1,2 @@
+Put current, approved security policies here (PDF, DOCX or MD).
+Drafts are ignored by the skill even if you put them here.

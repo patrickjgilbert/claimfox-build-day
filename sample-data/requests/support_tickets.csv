@@ -1,0 +1,772 @@
+ticket_id,requestor_id,requestor_name,request_id,opened_date,category,channel,status,resolved_date
+TCK-90001,RQ-121,RecordPoint Retrieval,REQ-46832,2024-10-19,Status inquiry,Email,Resolved,2024-10-19
+TCK-90002,RQ-121,RecordPoint Retrieval,REQ-46836,2024-11-13,Invoice question,Email,Resolved,2024-11-15
+TCK-90003,RQ-121,RecordPoint Retrieval,REQ-46839,2024-11-30,Portal login,Phone,Resolved,2024-12-04
+TCK-90004,RQ-121,RecordPoint Retrieval,REQ-46842,2024-12-12,Status inquiry,Phone,Resolved,2024-12-13
+TCK-90005,RQ-111,Ferris Nguyen LLP,REQ-40076,2025-01-05,Status inquiry,Portal chat,Resolved,2025-01-08
+TCK-90006,RQ-127,Pioneer Standard Insurance,REQ-40119,2025-01-02,Invoice question,Phone,Resolved,2025-01-05
+TCK-90007,RQ-131,NY WCB District Office,REQ-40296,2025-01-12,Status inquiry,Email,Resolved,2025-01-17
+TCK-90008,RQ-121,RecordPoint Retrieval,REQ-40266,2025-01-06,Portal login,Phone,Resolved,2025-01-06
+TCK-90009,RQ-106,Ostrowski Legal,REQ-40364,2025-01-05,Other,Portal chat,Resolved,2025-01-06
+TCK-90010,RQ-121,RecordPoint Retrieval,REQ-40042,2025-01-15,Invoice question,Portal chat,Resolved,2025-01-19
+TCK-90011,RQ-121,RecordPoint Retrieval,REQ-40324,2025-01-05,Portal login,Portal chat,Resolved,2025-01-09
+TCK-90012,RQ-101,Morrison & Pratt LLP,REQ-40363,2025-01-04,Status inquiry,Email,Resolved,2025-01-07
+TCK-90013,RQ-132,NJ Division of Workers' Comp,REQ-40095,2025-01-18,Payment issue,Phone,Resolved,2025-01-18
+TCK-90014,RQ-129,Evergreen Casualty,REQ-40130,2025-01-12,Invoice question,Portal chat,Resolved,2025-01-12
+TCK-90015,RQ-121,RecordPoint Retrieval,REQ-40147,2025-01-14,Status inquiry,Portal chat,Resolved,2025-01-14
+TCK-90016,RQ-123,DocuTrace Services,REQ-40232,2025-01-07,Status inquiry,Portal chat,Resolved,2025-01-13
+TCK-90017,RQ-125,ClearPath Records,REQ-40236,2025-01-13,Redaction dispute,Portal chat,Resolved,2025-01-13
+TCK-90018,RQ-121,RecordPoint Retrieval,REQ-40320,2025-01-07,Redaction dispute,Portal chat,Resolved,2025-01-12
+TCK-90019,RQ-101,Morrison & Pratt LLP,REQ-40016,2025-01-12,Duplicate request,Phone,Resolved,2025-01-17
+TCK-90020,RQ-101,Morrison & Pratt LLP,REQ-40144,2025-01-16,Invoice question,Phone,Resolved,2025-01-21
+TCK-90021,RQ-119,Quinlan & Ames,REQ-40290,2025-01-16,Missing pages,Email,Resolved,2025-01-18
+TCK-90022,RQ-120,Beaumont Stark,REQ-40097,2025-01-16,Redaction dispute,Email,Resolved,2025-01-21
+TCK-90023,RQ-108,Salas Trial Lawyers,REQ-40185,2025-01-15,Duplicate request,Portal chat,Resolved,2025-01-17
+TCK-90024,RQ-101,Morrison & Pratt LLP,REQ-40374,2025-01-10,Other,Portal chat,Resolved,2025-01-14
+TCK-90025,RQ-122,SwiftFile Records,REQ-40014,2025-01-25,Status inquiry,Portal chat,Resolved,2025-01-28
+TCK-90026,RQ-118,Pruitt Legal Group,REQ-40124,2025-01-23,Status inquiry,Portal chat,Resolved,2025-01-29
+TCK-90027,RQ-120,Beaumont Stark,REQ-40217,2025-01-20,Missing pages,Email,Resolved,2025-01-24
+TCK-90028,RQ-133,Individual claimants (self-represented),REQ-40040,2025-01-18,Missing pages,Portal chat,Resolved,2025-01-19
+TCK-90029,RQ-105,Brennan Hale PC,REQ-40117,2025-01-22,Portal login,Portal chat,Resolved,2025-01-23
+TCK-90030,RQ-113,Grayson Poole,REQ-40088,2025-01-22,Other,Phone,Resolved,2025-01-25
+TCK-90031,RQ-117,Iverson Goldberg,REQ-40102,2025-01-18,Portal login,Email,Resolved,2025-01-24
+TCK-90032,RQ-126,Summit Chart Services,REQ-40105,2025-01-22,Payment issue,Phone,Resolved,2025-01-22
+TCK-90033,RQ-131,NY WCB District Office,REQ-40240,2025-01-22,Invoice question,Phone,Resolved,2025-01-27
+TCK-90034,RQ-101,Morrison & Pratt LLP,REQ-40098,2025-01-31,Status inquiry,Portal chat,Resolved,2025-02-05
+TCK-90035,RQ-116,Carver Moss LLP,REQ-40154,2025-01-31,Status inquiry,Email,Resolved,2025-02-05
+TCK-90036,RQ-120,Beaumont Stark,REQ-40164,2025-01-31,Portal login,Phone,Resolved,2025-02-04
+TCK-90037,RQ-128,Lakeside Mutual,REQ-40225,2025-01-26,Payment issue,Phone,Resolved,2025-02-01
+TCK-90038,RQ-123,DocuTrace Services,REQ-40272,2025-02-02,Missing pages,Portal chat,Resolved,2025-02-07
+TCK-90039,RQ-121,RecordPoint Retrieval,REQ-40307,2025-01-30,Portal login,Portal chat,Resolved,2025-02-02
+TCK-90040,RQ-111,Ferris Nguyen LLP,REQ-40316,2025-01-31,Status inquiry,Portal chat,Resolved,2025-01-31
+TCK-90041,RQ-119,Quinlan & Ames,REQ-40001,2025-01-25,Portal login,Phone,Resolved,2025-01-25
+TCK-90042,RQ-121,RecordPoint Retrieval,REQ-40020,2025-01-26,Portal login,Phone,Resolved,2025-02-01
+TCK-90043,RQ-121,RecordPoint Retrieval,REQ-40270,2025-01-25,Invoice question,Email,Resolved,2025-01-30
+TCK-90044,RQ-121,RecordPoint Retrieval,REQ-40013,2025-02-02,Portal login,Portal chat,Resolved,2025-02-08
+TCK-90045,RQ-116,Carver Moss LLP,REQ-40015,2025-02-01,Payment issue,Email,Resolved,2025-02-05
+TCK-90046,RQ-101,Morrison & Pratt LLP,REQ-40054,2025-01-28,Duplicate request,Phone,Resolved,2025-01-30
+TCK-90047,RQ-118,Pruitt Legal Group,REQ-40131,2025-02-08,Status inquiry,Email,Resolved,2025-02-14
+TCK-90048,RQ-129,Evergreen Casualty,REQ-40197,2025-02-01,Payment issue,Phone,Resolved,2025-02-03
+TCK-90049,RQ-101,Morrison & Pratt LLP,REQ-40234,2025-02-05,Invoice question,Email,Resolved,2025-02-11
+TCK-90050,RQ-103,Kessler Injury Attorneys,REQ-40245,2025-02-03,Portal login,Phone,Resolved,2025-02-03
+TCK-90051,RQ-124,Keystone Record Retrieval,REQ-40292,2025-02-01,Portal login,Phone,Resolved,2025-02-01
+TCK-90052,RQ-118,Pruitt Legal Group,REQ-40337,2025-01-28,Invoice question,Phone,Resolved,2025-02-02
+TCK-90053,RQ-130,Sterling Auto Insurance,REQ-40075,2025-02-01,Other,Portal chat,Resolved,2025-02-01
+TCK-90054,RQ-101,Morrison & Pratt LLP,REQ-40446,2025-02-06,Status inquiry,Phone,Resolved,2025-02-12
+TCK-90055,RQ-107,Park & Levine,REQ-40686,2025-02-13,Status inquiry,Email,Resolved,2025-02-16
+TCK-90056,RQ-124,Keystone Record Retrieval,REQ-40452,2025-02-08,Payment issue,Portal chat,Resolved,2025-02-14
+TCK-90057,RQ-121,RecordPoint Retrieval,REQ-40473,2025-02-10,Status inquiry,Email,Resolved,2025-02-16
+TCK-90058,RQ-132,NJ Division of Workers' Comp,REQ-40584,2025-02-06,Missing pages,Email,Resolved,2025-02-09
+TCK-90059,RQ-121,RecordPoint Retrieval,REQ-40632,2025-02-11,Portal login,Phone,Resolved,2025-02-14
+TCK-90060,RQ-121,RecordPoint Retrieval,REQ-40420,2025-02-15,Portal login,Portal chat,Resolved,2025-02-15
+TCK-90061,RQ-121,RecordPoint Retrieval,REQ-40478,2025-02-11,Portal login,Phone,Resolved,2025-02-14
+TCK-90062,RQ-121,RecordPoint Retrieval,REQ-40520,2025-02-20,Portal login,Portal chat,Resolved,2025-02-22
+TCK-90063,RQ-118,Pruitt Legal Group,REQ-40525,2025-02-13,Portal login,Portal chat,Resolved,2025-02-13
+TCK-90064,RQ-127,Pioneer Standard Insurance,REQ-40576,2025-02-17,Invoice question,Email,Resolved,2025-02-19
+TCK-90065,RQ-132,NJ Division of Workers' Comp,REQ-40587,2025-02-17,Invoice question,Phone,Resolved,2025-02-19
+TCK-90066,RQ-101,Morrison & Pratt LLP,REQ-40618,2025-02-12,Status inquiry,Phone,Resolved,2025-02-18
+TCK-90067,RQ-101,Morrison & Pratt LLP,REQ-40665,2025-02-20,Missing pages,Portal chat,Resolved,2025-02-20
+TCK-90068,RQ-101,Morrison & Pratt LLP,REQ-40666,2025-02-22,Duplicate request,Portal chat,Resolved,2025-02-27
+TCK-90069,RQ-132,NJ Division of Workers' Comp,REQ-40657,2025-02-19,Portal login,Phone,Resolved,2025-02-20
+TCK-90070,RQ-101,Morrison & Pratt LLP,REQ-40685,2025-02-12,Duplicate request,Portal chat,Resolved,2025-02-17
+TCK-90071,RQ-108,Salas Trial Lawyers,REQ-40417,2025-02-17,Portal login,Phone,Resolved,2025-02-19
+TCK-90072,RQ-104,Whitcombe & Rao,REQ-40502,2025-02-15,Invoice question,Email,Resolved,2025-02-16
+TCK-90073,RQ-121,RecordPoint Retrieval,REQ-40568,2025-02-13,Portal login,Email,Resolved,2025-02-16
+TCK-90074,RQ-121,RecordPoint Retrieval,REQ-40629,2025-02-13,Other,Portal chat,Resolved,2025-02-17
+TCK-90075,RQ-107,Park & Levine,REQ-40653,2025-02-22,Status inquiry,Email,Resolved,2025-02-24
+TCK-90076,RQ-106,Ostrowski Legal,REQ-40435,2025-02-22,Invoice question,Email,Resolved,2025-02-25
+TCK-90077,RQ-122,SwiftFile Records,REQ-40637,2025-02-25,Invoice question,Portal chat,Resolved,2025-03-03
+TCK-90078,RQ-121,RecordPoint Retrieval,REQ-40456,2025-02-27,Status inquiry,Phone,Resolved,2025-02-28
+TCK-90079,RQ-101,Morrison & Pratt LLP,REQ-40511,2025-03-01,Duplicate request,Email,Resolved,2025-03-06
+TCK-90080,RQ-116,Carver Moss LLP,REQ-40678,2025-03-01,Portal login,Portal chat,Resolved,2025-03-01
+TCK-90081,RQ-121,RecordPoint Retrieval,REQ-40433,2025-02-27,Portal login,Email,Resolved,2025-02-28
+TCK-90082,RQ-105,Brennan Hale PC,REQ-40508,2025-02-20,Duplicate request,Portal chat,Resolved,2025-02-24
+TCK-90083,RQ-102,Delgado Law Group,REQ-40457,2025-03-05,Invoice question,Email,Resolved,2025-03-08
+TCK-90084,RQ-102,Delgado Law Group,REQ-40507,2025-03-04,Payment issue,Phone,Resolved,2025-03-10
+TCK-90085,RQ-126,Summit Chart Services,REQ-40689,2025-02-24,Duplicate request,Phone,Resolved,2025-03-02
+TCK-90086,RQ-101,Morrison & Pratt LLP,REQ-40468,2025-03-07,Duplicate request,Email,Resolved,2025-03-13
+TCK-90087,RQ-121,RecordPoint Retrieval,REQ-40480,2025-03-03,Portal login,Portal chat,Resolved,2025-03-06
+TCK-90088,RQ-121,RecordPoint Retrieval,REQ-40501,2025-02-26,Portal login,Portal chat,Resolved,2025-03-04
+TCK-90089,RQ-101,Morrison & Pratt LLP,REQ-40523,2025-03-03,Duplicate request,Portal chat,Resolved,2025-03-06
+TCK-90090,RQ-126,Summit Chart Services,REQ-40646,2025-03-07,Other,Portal chat,Resolved,2025-03-09
+TCK-90091,RQ-115,Lindqvist Defense,REQ-40731,2025-03-06,Payment issue,Portal chat,Resolved,2025-03-09
+TCK-90092,RQ-121,RecordPoint Retrieval,REQ-40619,2025-03-02,Portal login,Portal chat,Resolved,2025-03-05
+TCK-90093,RQ-121,RecordPoint Retrieval,REQ-40541,2025-03-02,Portal login,Email,Resolved,2025-03-03
+TCK-90094,RQ-125,ClearPath Records,REQ-40684,2025-03-09,Portal login,Email,Resolved,2025-03-12
+TCK-90095,RQ-121,RecordPoint Retrieval,REQ-40449,2025-03-08,Invoice question,Portal chat,Resolved,2025-03-11
+TCK-90096,RQ-126,Summit Chart Services,REQ-40703,2025-03-04,Status inquiry,Email,Resolved,2025-03-10
+TCK-90097,RQ-131,NY WCB District Office,REQ-40732,2025-03-04,Status inquiry,Portal chat,Resolved,2025-03-05
+TCK-90098,RQ-101,Morrison & Pratt LLP,REQ-40900,2025-03-11,Duplicate request,Portal chat,Resolved,2025-03-11
+TCK-90099,RQ-109,Hudson Valley Injury Law,REQ-41011,2025-03-14,Portal login,Phone,Resolved,2025-03-14
+TCK-90100,RQ-121,RecordPoint Retrieval,REQ-40884,2025-03-09,Portal login,Email,Resolved,2025-03-09
+TCK-90101,RQ-121,RecordPoint Retrieval,REQ-40951,2025-03-07,Invoice question,Phone,Resolved,2025-03-11
+TCK-90102,RQ-102,Delgado Law Group,REQ-40903,2025-03-16,Redaction dispute,Phone,Resolved,2025-03-20
+TCK-90103,RQ-129,Evergreen Casualty,REQ-40875,2025-03-14,Payment issue,Phone,Resolved,2025-03-14
+TCK-90104,RQ-120,Beaumont Stark,REQ-40909,2025-03-10,Portal login,Portal chat,Resolved,2025-03-14
+TCK-90105,RQ-120,Beaumont Stark,REQ-40982,2025-03-21,Status inquiry,Portal chat,Resolved,2025-03-27
+TCK-90106,RQ-119,Quinlan & Ames,REQ-40905,2025-03-13,Missing pages,Portal chat,Resolved,2025-03-16
+TCK-90107,RQ-108,Salas Trial Lawyers,REQ-40989,2025-03-13,Redaction dispute,Phone,Resolved,2025-03-18
+TCK-90108,RQ-122,SwiftFile Records,REQ-40817,2025-03-14,Portal login,Portal chat,Resolved,2025-03-17
+TCK-90109,RQ-121,RecordPoint Retrieval,REQ-40996,2025-03-19,Portal login,Portal chat,Resolved,2025-03-22
+TCK-90110,RQ-121,RecordPoint Retrieval,REQ-40767,2025-03-21,Missing pages,Portal chat,Resolved,2025-03-23
+TCK-90111,RQ-101,Morrison & Pratt LLP,REQ-40780,2025-03-23,Duplicate request,Email,Resolved,2025-03-25
+TCK-90112,RQ-122,SwiftFile Records,REQ-40899,2025-03-19,Invoice question,Portal chat,Resolved,2025-03-21
+TCK-90113,RQ-104,Whitcombe & Rao,REQ-40783,2025-03-22,Invoice question,Phone,Resolved,2025-03-26
+TCK-90114,RQ-130,Sterling Auto Insurance,REQ-40950,2025-03-25,Duplicate request,Phone,Resolved,2025-03-25
+TCK-90115,RQ-123,DocuTrace Services,REQ-41027,2025-03-24,Redaction dispute,Phone,Resolved,2025-03-24
+TCK-90116,RQ-115,Lindqvist Defense,REQ-41047,2025-03-22,Portal login,Phone,Resolved,2025-03-26
+TCK-90117,RQ-126,Summit Chart Services,REQ-40787,2025-03-23,Other,Portal chat,Resolved,2025-03-28
+TCK-90118,RQ-118,Pruitt Legal Group,REQ-40854,2025-03-28,Duplicate request,Portal chat,Resolved,2025-03-30
+TCK-90119,RQ-121,RecordPoint Retrieval,REQ-40763,2025-03-22,Portal login,Portal chat,Resolved,2025-03-24
+TCK-90120,RQ-122,SwiftFile Records,REQ-40789,2025-03-29,Portal login,Portal chat,Resolved,2025-04-01
+TCK-90121,RQ-121,RecordPoint Retrieval,REQ-40869,2025-03-22,Portal login,Portal chat,Resolved,2025-03-27
+TCK-90122,RQ-115,Lindqvist Defense,REQ-40925,2025-03-21,Status inquiry,Portal chat,Resolved,2025-03-27
+TCK-90123,RQ-110,Marchetti & Cole,REQ-41026,2025-03-30,Payment issue,Portal chat,Resolved,2025-04-04
+TCK-90124,RQ-113,Grayson Poole,REQ-40772,2025-03-30,Portal login,Email,Resolved,2025-04-01
+TCK-90125,RQ-101,Morrison & Pratt LLP,REQ-41019,2025-03-23,Duplicate request,Portal chat,Resolved,2025-03-29
+TCK-90126,RQ-124,Keystone Record Retrieval,REQ-40748,2025-03-28,Missing pages,Portal chat,Resolved,2025-04-01
+TCK-90127,RQ-101,Morrison & Pratt LLP,REQ-40756,2025-03-27,Portal login,Phone,Resolved,2025-04-01
+TCK-90128,RQ-117,Iverson Goldberg,REQ-40969,2025-04-05,Status inquiry,Phone,Resolved,2025-04-11
+TCK-90129,RQ-121,RecordPoint Retrieval,REQ-41041,2025-03-29,Status inquiry,Phone,Resolved,2025-03-31
+TCK-90130,RQ-101,Morrison & Pratt LLP,REQ-40799,2025-03-30,Duplicate request,Portal chat,Resolved,2025-04-05
+TCK-90131,RQ-126,Summit Chart Services,REQ-40940,2025-04-04,Payment issue,Portal chat,Resolved,2025-04-09
+TCK-90132,RQ-110,Marchetti & Cole,REQ-40758,2025-04-04,Missing pages,Portal chat,Resolved,2025-04-09
+TCK-90133,RQ-121,RecordPoint Retrieval,REQ-40790,2025-04-08,Redaction dispute,Phone,Resolved,2025-04-12
+TCK-90134,RQ-114,Tate & Winslow,REQ-41099,2025-04-06,Invoice question,Phone,Resolved,2025-04-06
+TCK-90135,RQ-113,Grayson Poole,REQ-41192,2025-04-08,Payment issue,Email,Resolved,2025-04-13
+TCK-90136,RQ-122,SwiftFile Records,REQ-41109,2025-04-07,Status inquiry,Portal chat,Resolved,2025-04-11
+TCK-90137,RQ-124,Keystone Record Retrieval,REQ-41285,2025-04-06,Other,Email,Resolved,2025-04-09
+TCK-90138,RQ-133,Individual claimants (self-represented),REQ-41315,2025-04-12,Status inquiry,Phone,Resolved,2025-04-18
+TCK-90139,RQ-118,Pruitt Legal Group,REQ-41339,2025-04-14,Invoice question,Phone,Resolved,2025-04-14
+TCK-90140,RQ-128,Lakeside Mutual,REQ-41195,2025-04-16,Portal login,Portal chat,Resolved,2025-04-18
+TCK-90141,RQ-118,Pruitt Legal Group,REQ-41167,2025-04-21,Status inquiry,Phone,Resolved,2025-04-23
+TCK-90142,RQ-121,RecordPoint Retrieval,REQ-41227,2025-04-19,Portal login,Portal chat,Resolved,2025-04-24
+TCK-90143,RQ-126,Summit Chart Services,REQ-41245,2025-04-21,Other,Email,Resolved,2025-04-24
+TCK-90144,RQ-113,Grayson Poole,REQ-41270,2025-04-25,Status inquiry,Email,Resolved,2025-05-01
+TCK-90145,RQ-101,Morrison & Pratt LLP,REQ-41301,2025-04-21,Missing pages,Portal chat,Resolved,2025-04-23
+TCK-90146,RQ-133,Individual claimants (self-represented),REQ-41306,2025-04-21,Other,Portal chat,Resolved,2025-04-24
+TCK-90147,RQ-101,Morrison & Pratt LLP,REQ-41319,2025-04-22,Status inquiry,Portal chat,Resolved,2025-04-24
+TCK-90148,RQ-119,Quinlan & Ames,REQ-41194,2025-04-20,Portal login,Phone,Resolved,2025-04-25
+TCK-90149,RQ-101,Morrison & Pratt LLP,REQ-41331,2025-04-26,Duplicate request,Phone,Resolved,2025-04-28
+TCK-90150,RQ-133,Individual claimants (self-represented),REQ-41072,2025-04-25,Invoice question,Email,Resolved,2025-04-27
+TCK-90151,RQ-107,Park & Levine,REQ-41214,2025-04-27,Status inquiry,Phone,Resolved,2025-04-27
+TCK-90152,RQ-121,RecordPoint Retrieval,REQ-41238,2025-04-27,Portal login,Phone,Resolved,2025-05-01
+TCK-90153,RQ-116,Carver Moss LLP,REQ-41259,2025-04-27,Invoice question,Email,Resolved,2025-04-30
+TCK-90154,RQ-131,NY WCB District Office,REQ-41276,2025-04-19,Status inquiry,Portal chat,Resolved,2025-04-21
+TCK-90155,RQ-102,Delgado Law Group,REQ-41062,2025-04-26,Invoice question,Phone,Resolved,2025-04-26
+TCK-90156,RQ-123,DocuTrace Services,REQ-41177,2025-04-26,Payment issue,Portal chat,Resolved,2025-04-30
+TCK-90157,RQ-120,Beaumont Stark,REQ-41208,2025-04-28,Portal login,Phone,Resolved,2025-05-04
+TCK-90158,RQ-133,Individual claimants (self-represented),REQ-41265,2025-04-26,Invoice question,Phone,Resolved,2025-05-01
+TCK-90159,RQ-121,RecordPoint Retrieval,REQ-41284,2025-04-24,Portal login,Portal chat,Resolved,2025-04-24
+TCK-90160,RQ-108,Salas Trial Lawyers,REQ-41299,2025-04-22,Payment issue,Portal chat,Resolved,2025-04-25
+TCK-90161,RQ-107,Park & Levine,REQ-41313,2025-04-30,Invoice question,Portal chat,Resolved,2025-05-03
+TCK-90162,RQ-106,Ostrowski Legal,REQ-41142,2025-05-02,Portal login,Phone,Resolved,2025-05-03
+TCK-90163,RQ-123,DocuTrace Services,REQ-41162,2025-05-05,Portal login,Email,Resolved,2025-05-07
+TCK-90164,RQ-123,DocuTrace Services,REQ-41230,2025-04-30,Status inquiry,Portal chat,Resolved,2025-05-05
+TCK-90165,RQ-101,Morrison & Pratt LLP,REQ-41221,2025-04-29,Duplicate request,Phone,Resolved,2025-05-03
+TCK-90166,RQ-119,Quinlan & Ames,REQ-41326,2025-04-25,Payment issue,Phone,Resolved,2025-04-29
+TCK-90167,RQ-101,Morrison & Pratt LLP,REQ-41103,2025-05-09,Status inquiry,Phone,Resolved,2025-05-13
+TCK-90168,RQ-121,RecordPoint Retrieval,REQ-41104,2025-05-08,Payment issue,Portal chat,Resolved,2025-05-08
+TCK-90169,RQ-132,NJ Division of Workers' Comp,REQ-41223,2025-04-29,Portal login,Email,Resolved,2025-05-05
+TCK-90170,RQ-123,DocuTrace Services,REQ-41273,2025-05-04,Portal login,Email,Resolved,2025-05-05
+TCK-90171,RQ-117,Iverson Goldberg,REQ-41482,2025-05-08,Invoice question,Email,Resolved,2025-05-10
+TCK-90172,RQ-101,Morrison & Pratt LLP,REQ-41568,2025-05-08,Payment issue,Phone,Resolved,2025-05-10
+TCK-90173,RQ-102,Delgado Law Group,REQ-41396,2025-05-11,Status inquiry,Phone,Resolved,2025-05-13
+TCK-90174,RQ-108,Salas Trial Lawyers,REQ-41554,2025-05-10,Invoice question,Portal chat,Resolved,2025-05-15
+TCK-90175,RQ-101,Morrison & Pratt LLP,REQ-41366,2025-05-12,Duplicate request,Email,Resolved,2025-05-17
+TCK-90176,RQ-101,Morrison & Pratt LLP,REQ-41537,2025-05-15,Invoice question,Portal chat,Resolved,2025-05-21
+TCK-90177,RQ-133,Individual claimants (self-represented),REQ-41487,2025-05-13,Portal login,Portal chat,Resolved,2025-05-14
+TCK-90178,RQ-105,Brennan Hale PC,REQ-41350,2025-05-19,Payment issue,Portal chat,Resolved,2025-05-23
+TCK-90179,RQ-121,RecordPoint Retrieval,REQ-41378,2025-05-24,Portal login,Portal chat,Resolved,2025-05-29
+TCK-90180,RQ-112,Abernathy Law,REQ-41395,2025-05-15,Portal login,Email,Resolved,2025-05-16
+TCK-90181,RQ-127,Pioneer Standard Insurance,REQ-41443,2025-05-15,Duplicate request,Portal chat,Resolved,2025-05-18
+TCK-90182,RQ-127,Pioneer Standard Insurance,REQ-41472,2025-05-20,Duplicate request,Phone,Resolved,2025-05-26
+TCK-90183,RQ-101,Morrison & Pratt LLP,REQ-41567,2025-05-14,Missing pages,Email,Resolved,2025-05-19
+TCK-90184,RQ-107,Park & Levine,REQ-41490,2025-05-15,Status inquiry,Email,Resolved,2025-05-19
+TCK-90185,RQ-113,Grayson Poole,REQ-41612,2025-05-21,Missing pages,Portal chat,Resolved,2025-05-27
+TCK-90186,RQ-133,Individual claimants (self-represented),REQ-41388,2025-05-26,Portal login,Phone,Resolved,2025-05-26
+TCK-90187,RQ-101,Morrison & Pratt LLP,REQ-41446,2025-05-22,Duplicate request,Portal chat,Resolved,2025-05-22
+TCK-90188,RQ-132,NJ Division of Workers' Comp,REQ-41628,2025-05-23,Duplicate request,Portal chat,Resolved,2025-05-24
+TCK-90189,RQ-121,RecordPoint Retrieval,REQ-41642,2025-05-25,Portal login,Portal chat,Resolved,2025-05-31
+TCK-90190,RQ-112,Abernathy Law,REQ-41495,2025-05-22,Payment issue,Phone,Resolved,2025-05-28
+TCK-90191,RQ-113,Grayson Poole,REQ-41515,2025-05-28,Status inquiry,Phone,Resolved,2025-05-30
+TCK-90192,RQ-121,RecordPoint Retrieval,REQ-41525,2025-05-22,Portal login,Portal chat,Resolved,2025-05-25
+TCK-90193,RQ-101,Morrison & Pratt LLP,REQ-41345,2025-05-28,Invoice question,Email,Resolved,2025-05-29
+TCK-90194,RQ-133,Individual claimants (self-represented),REQ-41369,2025-06-03,Status inquiry,Email,Resolved,2025-06-09
+TCK-90195,RQ-121,RecordPoint Retrieval,REQ-41556,2025-06-01,Status inquiry,Phone,Resolved,2025-06-01
+TCK-90196,RQ-123,DocuTrace Services,REQ-41856,2025-06-08,Other,Portal chat,Resolved,2025-06-10
+TCK-90197,RQ-126,Summit Chart Services,REQ-41803,2025-06-11,Status inquiry,Email,Resolved,2025-06-16
+TCK-90198,RQ-120,Beaumont Stark,REQ-41845,2025-06-09,Payment issue,Email,Resolved,2025-06-09
+TCK-90199,RQ-101,Morrison & Pratt LLP,REQ-41693,2025-06-18,Status inquiry,Email,Resolved,2025-06-22
+TCK-90200,RQ-118,Pruitt Legal Group,REQ-41884,2025-06-15,Status inquiry,Portal chat,Resolved,2025-06-16
+TCK-90201,RQ-125,ClearPath Records,REQ-41897,2025-06-14,Status inquiry,Phone,Resolved,2025-06-14
+TCK-90202,RQ-101,Morrison & Pratt LLP,REQ-41666,2025-06-12,Status inquiry,Email,Resolved,2025-06-17
+TCK-90203,RQ-111,Ferris Nguyen LLP,REQ-41742,2025-06-15,Portal login,Portal chat,Resolved,2025-06-15
+TCK-90204,RQ-118,Pruitt Legal Group,REQ-41837,2025-06-15,Invoice question,Email,Resolved,2025-06-18
+TCK-90205,RQ-102,Delgado Law Group,REQ-41809,2025-06-22,Status inquiry,Portal chat,Resolved,2025-06-27
+TCK-90206,RQ-122,SwiftFile Records,REQ-41766,2025-06-23,Status inquiry,Portal chat,Resolved,2025-06-27
+TCK-90207,RQ-118,Pruitt Legal Group,REQ-41823,2025-06-22,Duplicate request,Email,Resolved,2025-06-28
+TCK-90208,RQ-122,SwiftFile Records,REQ-41893,2025-06-15,Missing pages,Email,Resolved,2025-06-17
+TCK-90209,RQ-123,DocuTrace Services,REQ-41829,2025-06-14,Redaction dispute,Email,Resolved,2025-06-18
+TCK-90210,RQ-102,Delgado Law Group,REQ-41680,2025-06-20,Invoice question,Email,Resolved,2025-06-25
+TCK-90211,RQ-102,Delgado Law Group,REQ-41744,2025-06-21,Redaction dispute,Phone,Resolved,2025-06-25
+TCK-90212,RQ-112,Abernathy Law,REQ-41747,2025-06-26,Payment issue,Portal chat,Resolved,2025-06-27
+TCK-90213,RQ-101,Morrison & Pratt LLP,REQ-41775,2025-06-28,Invoice question,Portal chat,Resolved,2025-07-02
+TCK-90214,RQ-101,Morrison & Pratt LLP,REQ-41903,2025-06-17,Duplicate request,Phone,Resolved,2025-06-22
+TCK-90215,RQ-107,Park & Levine,REQ-41907,2025-06-20,Status inquiry,Email,Resolved,2025-06-20
+TCK-90216,RQ-121,RecordPoint Retrieval,REQ-41658,2025-06-25,Status inquiry,Portal chat,Resolved,2025-06-28
+TCK-90217,RQ-123,DocuTrace Services,REQ-41743,2025-06-29,Status inquiry,Portal chat,Resolved,2025-07-05
+TCK-90218,RQ-101,Morrison & Pratt LLP,REQ-41754,2025-06-30,Duplicate request,Portal chat,Resolved,2025-07-02
+TCK-90219,RQ-108,Salas Trial Lawyers,REQ-41762,2025-07-04,Portal login,Email,Resolved,2025-07-07
+TCK-90220,RQ-101,Morrison & Pratt LLP,REQ-41860,2025-06-28,Portal login,Portal chat,Resolved,2025-06-30
+TCK-90221,RQ-127,Pioneer Standard Insurance,REQ-41881,2025-06-29,Status inquiry,Phone,Resolved,2025-07-01
+TCK-90222,RQ-123,DocuTrace Services,REQ-41906,2025-07-01,Missing pages,Email,Resolved,2025-07-04
+TCK-90223,RQ-101,Morrison & Pratt LLP,REQ-41840,2025-06-26,Redaction dispute,Portal chat,Resolved,2025-06-26
+TCK-90224,RQ-101,Morrison & Pratt LLP,REQ-41898,2025-07-05,Missing pages,Portal chat,Resolved,2025-07-11
+TCK-90225,RQ-121,RecordPoint Retrieval,REQ-41876,2025-06-28,Invoice question,Portal chat,Resolved,2025-07-04
+TCK-90226,RQ-102,Delgado Law Group,REQ-41795,2025-07-04,Status inquiry,Email,Resolved,2025-07-10
+TCK-90227,RQ-127,Pioneer Standard Insurance,REQ-41732,2025-07-01,Status inquiry,Portal chat,Resolved,2025-07-05
+TCK-90228,RQ-133,Individual claimants (self-represented),REQ-41773,2025-07-03,Status inquiry,Phone,Resolved,2025-07-03
+TCK-90229,RQ-114,Tate & Winslow,REQ-41918,2025-07-10,Invoice question,Email,Resolved,2025-07-16
+TCK-90230,RQ-101,Morrison & Pratt LLP,REQ-41968,2025-07-05,Invoice question,Phone,Resolved,2025-07-07
+TCK-90231,RQ-111,Ferris Nguyen LLP,REQ-42075,2025-07-13,Invoice question,Portal chat,Resolved,2025-07-17
+TCK-90232,RQ-113,Grayson Poole,REQ-42157,2025-07-10,Invoice question,Phone,Resolved,2025-07-16
+TCK-90233,RQ-104,Whitcombe & Rao,REQ-42185,2025-07-15,Portal login,Email,Resolved,2025-07-16
+TCK-90234,RQ-121,RecordPoint Retrieval,REQ-41949,2025-07-15,Portal login,Portal chat,Resolved,2025-07-19
+TCK-90235,RQ-121,RecordPoint Retrieval,REQ-42071,2025-07-18,Invoice question,Phone,Resolved,2025-07-23
+TCK-90236,RQ-131,NY WCB District Office,REQ-42106,2025-07-18,Missing pages,Phone,Resolved,2025-07-22
+TCK-90237,RQ-121,RecordPoint Retrieval,REQ-42179,2025-07-18,Missing pages,Phone,Resolved,2025-07-22
+TCK-90238,RQ-116,Carver Moss LLP,REQ-41943,2025-07-12,Redaction dispute,Phone,Resolved,2025-07-14
+TCK-90239,RQ-105,Brennan Hale PC,REQ-41980,2025-07-17,Portal login,Portal chat,Resolved,2025-07-17
+TCK-90240,RQ-127,Pioneer Standard Insurance,REQ-41982,2025-07-15,Status inquiry,Phone,Resolved,2025-07-17
+TCK-90241,RQ-132,NJ Division of Workers' Comp,REQ-42086,2025-07-23,Status inquiry,Portal chat,Resolved,2025-07-27
+TCK-90242,RQ-124,Keystone Record Retrieval,REQ-41933,2025-07-17,Payment issue,Portal chat,Resolved,2025-07-23
+TCK-90243,RQ-117,Iverson Goldberg,REQ-41939,2025-07-25,Invoice question,Portal chat,Resolved,2025-07-30
+TCK-90244,RQ-111,Ferris Nguyen LLP,REQ-42040,2025-07-16,Portal login,Email,Resolved,2025-07-20
+TCK-90245,RQ-103,Kessler Injury Attorneys,REQ-42078,2025-07-15,Portal login,Portal chat,Resolved,2025-07-18
+TCK-90246,RQ-101,Morrison & Pratt LLP,REQ-42167,2025-07-25,Duplicate request,Email,Resolved,2025-07-26
+TCK-90247,RQ-115,Lindqvist Defense,REQ-42176,2025-07-20,Payment issue,Email,Resolved,2025-07-22
+TCK-90248,RQ-126,Summit Chart Services,REQ-42125,2025-07-25,Invoice question,Phone,Resolved,2025-07-30
+TCK-90249,RQ-133,Individual claimants (self-represented),REQ-42128,2025-07-17,Status inquiry,Email,Resolved,2025-07-21
+TCK-90250,RQ-121,RecordPoint Retrieval,REQ-41935,2025-07-29,Missing pages,Phone,Resolved,2025-08-04
+TCK-90251,RQ-130,Sterling Auto Insurance,REQ-42174,2025-07-24,Missing pages,Phone,Resolved,2025-07-28
+TCK-90252,RQ-121,RecordPoint Retrieval,REQ-41944,2025-07-20,Missing pages,Email,Resolved,2025-07-21
+TCK-90253,RQ-124,Keystone Record Retrieval,REQ-41946,2025-07-30,Missing pages,Phone,Resolved,2025-08-03
+TCK-90254,RQ-121,RecordPoint Retrieval,REQ-42020,2025-07-29,Portal login,Portal chat,Resolved,2025-07-29
+TCK-90255,RQ-132,NJ Division of Workers' Comp,REQ-41955,2025-07-30,Redaction dispute,Phone,Resolved,2025-08-01
+TCK-90256,RQ-125,ClearPath Records,REQ-42022,2025-07-23,Duplicate request,Portal chat,Resolved,2025-07-25
+TCK-90257,RQ-114,Tate & Winslow,REQ-42049,2025-07-23,Status inquiry,Portal chat,Resolved,2025-07-23
+TCK-90258,RQ-121,RecordPoint Retrieval,REQ-42066,2025-07-28,Portal login,Portal chat,Resolved,2025-07-29
+TCK-90259,RQ-121,RecordPoint Retrieval,REQ-42115,2025-07-26,Portal login,Email,Resolved,2025-07-30
+TCK-90260,RQ-124,Keystone Record Retrieval,REQ-42140,2025-07-26,Status inquiry,Phone,Resolved,2025-08-01
+TCK-90261,RQ-121,RecordPoint Retrieval,REQ-41960,2025-08-02,Portal login,Email,Resolved,2025-08-03
+TCK-90262,RQ-106,Ostrowski Legal,REQ-41962,2025-07-25,Status inquiry,Portal chat,Resolved,2025-07-25
+TCK-90263,RQ-121,RecordPoint Retrieval,REQ-42060,2025-07-31,Duplicate request,Phone,Resolved,2025-08-05
+TCK-90264,RQ-121,RecordPoint Retrieval,REQ-42134,2025-08-05,Portal login,Portal chat,Resolved,2025-08-11
+TCK-90265,RQ-121,RecordPoint Retrieval,REQ-42057,2025-08-04,Status inquiry,Portal chat,Resolved,2025-08-09
+TCK-90266,RQ-121,RecordPoint Retrieval,REQ-42081,2025-08-01,Invoice question,Phone,Resolved,2025-08-07
+TCK-90267,RQ-132,NJ Division of Workers' Comp,REQ-42105,2025-08-06,Status inquiry,Phone,Resolved,2025-08-11
+TCK-90268,RQ-114,Tate & Winslow,REQ-42247,2025-08-08,Invoice question,Portal chat,Resolved,2025-08-12
+TCK-90269,RQ-101,Morrison & Pratt LLP,REQ-42438,2025-08-10,Duplicate request,Portal chat,Resolved,2025-08-10
+TCK-90270,RQ-121,RecordPoint Retrieval,REQ-42638,2025-08-05,Status inquiry,Portal chat,Resolved,2025-08-10
+TCK-90271,RQ-111,Ferris Nguyen LLP,REQ-42330,2025-08-09,Status inquiry,Email,Resolved,2025-08-12
+TCK-90272,RQ-111,Ferris Nguyen LLP,REQ-42572,2025-08-13,Status inquiry,Email,Resolved,2025-08-19
+TCK-90273,RQ-107,Park & Levine,REQ-42266,2025-08-17,Invoice question,Email,Resolved,2025-08-22
+TCK-90274,RQ-110,Marchetti & Cole,REQ-42271,2025-08-16,Status inquiry,Phone,Resolved,2025-08-16
+TCK-90275,RQ-121,RecordPoint Retrieval,REQ-42447,2025-08-09,Portal login,Phone,Resolved,2025-08-13
+TCK-90276,RQ-108,Salas Trial Lawyers,REQ-42280,2025-08-12,Portal login,Email,Resolved,2025-08-12
+TCK-90277,RQ-102,Delgado Law Group,REQ-42306,2025-08-13,Status inquiry,Portal chat,Resolved,2025-08-19
+TCK-90278,RQ-131,NY WCB District Office,REQ-42613,2025-08-10,Portal login,Phone,Resolved,2025-08-10
+TCK-90279,RQ-131,NY WCB District Office,REQ-42633,2025-08-15,Status inquiry,Email,Resolved,2025-08-20
+TCK-90280,RQ-128,Lakeside Mutual,REQ-42261,2025-08-17,Invoice question,Portal chat,Resolved,2025-08-17
+TCK-90281,RQ-105,Brennan Hale PC,REQ-42451,2025-08-09,Status inquiry,Portal chat,Resolved,2025-08-12
+TCK-90282,RQ-121,RecordPoint Retrieval,REQ-42459,2025-08-15,Portal login,Email,Resolved,2025-08-15
+TCK-90283,RQ-121,RecordPoint Retrieval,REQ-42477,2025-08-17,Portal login,Phone,Resolved,2025-08-18
+TCK-90284,RQ-101,Morrison & Pratt LLP,REQ-42263,2025-08-15,Status inquiry,Phone,Resolved,2025-08-18
+TCK-90285,RQ-123,DocuTrace Services,REQ-42315,2025-08-22,Redaction dispute,Phone,Resolved,2025-08-28
+TCK-90286,RQ-111,Ferris Nguyen LLP,REQ-42364,2025-08-22,Missing pages,Email,Resolved,2025-08-24
+TCK-90287,RQ-122,SwiftFile Records,REQ-42630,2025-08-16,Status inquiry,Phone,Resolved,2025-08-16
+TCK-90288,RQ-101,Morrison & Pratt LLP,REQ-42303,2025-08-21,Payment issue,Phone,Resolved,2025-08-27
+TCK-90289,RQ-124,Keystone Record Retrieval,REQ-42409,2025-08-23,Status inquiry,Portal chat,Resolved,2025-08-24
+TCK-90290,RQ-101,Morrison & Pratt LLP,REQ-42469,2025-08-13,Duplicate request,Email,Resolved,2025-08-15
+TCK-90291,RQ-101,Morrison & Pratt LLP,REQ-42579,2025-08-21,Invoice question,Phone,Resolved,2025-08-22
+TCK-90292,RQ-120,Beaumont Stark,REQ-42258,2025-08-23,Payment issue,Email,Resolved,2025-08-24
+TCK-90293,RQ-121,RecordPoint Retrieval,REQ-42412,2025-08-15,Portal login,Email,Resolved,2025-08-16
+TCK-90294,RQ-124,Keystone Record Retrieval,REQ-42411,2025-08-25,Invoice question,Email,Resolved,2025-08-25
+TCK-90295,RQ-121,RecordPoint Retrieval,REQ-42525,2025-08-27,Status inquiry,Portal chat,Resolved,2025-09-02
+TCK-90296,RQ-118,Pruitt Legal Group,REQ-42366,2025-08-23,Status inquiry,Phone,Resolved,2025-08-26
+TCK-90297,RQ-132,NJ Division of Workers' Comp,REQ-42473,2025-08-23,Status inquiry,Portal chat,Resolved,2025-08-25
+TCK-90298,RQ-125,ClearPath Records,REQ-42491,2025-08-19,Status inquiry,Phone,Resolved,2025-08-21
+TCK-90299,RQ-121,RecordPoint Retrieval,REQ-42617,2025-08-22,Portal login,Email,Resolved,2025-08-23
+TCK-90300,RQ-118,Pruitt Legal Group,REQ-42296,2025-08-24,Portal login,Phone,Resolved,2025-08-29
+TCK-90301,RQ-133,Individual claimants (self-represented),REQ-42335,2025-08-27,Other,Email,Resolved,2025-09-02
+TCK-90302,RQ-101,Morrison & Pratt LLP,REQ-42549,2025-08-28,Payment issue,Email,Resolved,2025-09-02
+TCK-90303,RQ-121,RecordPoint Retrieval,REQ-42555,2025-08-26,Portal login,Email,Resolved,2025-08-28
+TCK-90304,RQ-114,Tate & Winslow,REQ-42461,2025-08-23,Status inquiry,Email,Resolved,2025-08-26
+TCK-90305,RQ-114,Tate & Winslow,REQ-42443,2025-08-28,Duplicate request,Email,Resolved,2025-08-29
+TCK-90306,RQ-101,Morrison & Pratt LLP,REQ-42255,2025-08-27,Duplicate request,Phone,Resolved,2025-08-30
+TCK-90307,RQ-132,NJ Division of Workers' Comp,REQ-42416,2025-09-02,Invoice question,Portal chat,Resolved,2025-09-06
+TCK-90308,RQ-111,Ferris Nguyen LLP,REQ-42294,2025-09-02,Payment issue,Email,Resolved,2025-09-03
+TCK-90309,RQ-103,Kessler Injury Attorneys,REQ-42463,2025-08-26,Payment issue,Email,Resolved,2025-09-01
+TCK-90310,RQ-102,Delgado Law Group,REQ-42543,2025-08-31,Invoice question,Phone,Resolved,2025-09-05
+TCK-90311,RQ-133,Individual claimants (self-represented),REQ-42383,2025-08-31,Payment issue,Portal chat,Resolved,2025-09-03
+TCK-90312,RQ-122,SwiftFile Records,REQ-42471,2025-08-30,Portal login,Phone,Resolved,2025-09-04
+TCK-90313,RQ-101,Morrison & Pratt LLP,REQ-42675,2025-09-11,Payment issue,Portal chat,Resolved,2025-09-11
+TCK-90314,RQ-110,Marchetti & Cole,REQ-42811,2025-09-13,Missing pages,Email,Resolved,2025-09-16
+TCK-90315,RQ-112,Abernathy Law,REQ-42908,2025-09-04,Invoice question,Phone,Resolved,2025-09-07
+TCK-90316,RQ-121,RecordPoint Retrieval,REQ-42802,2025-09-10,Portal login,Phone,Resolved,2025-09-14
+TCK-90317,RQ-123,DocuTrace Services,REQ-42826,2025-09-07,Duplicate request,Phone,Resolved,2025-09-10
+TCK-90318,RQ-133,Individual claimants (self-represented),REQ-42807,2025-09-10,Portal login,Phone,Resolved,2025-09-14
+TCK-90319,RQ-125,ClearPath Records,REQ-42932,2025-09-06,Status inquiry,Email,Resolved,2025-09-09
+TCK-90320,RQ-109,Hudson Valley Injury Law,REQ-42942,2025-09-15,Status inquiry,Portal chat,Resolved,2025-09-19
+TCK-90321,RQ-121,RecordPoint Retrieval,REQ-42689,2025-09-12,Invoice question,Phone,Resolved,2025-09-17
+TCK-90322,RQ-103,Kessler Injury Attorneys,REQ-42881,2025-09-14,Status inquiry,Portal chat,Resolved,2025-09-19
+TCK-90323,RQ-109,Hudson Valley Injury Law,REQ-42952,2025-09-16,Invoice question,Portal chat,Resolved,2025-09-16
+TCK-90324,RQ-101,Morrison & Pratt LLP,REQ-42833,2025-09-14,Portal login,Email,Resolved,2025-09-20
+TCK-90325,RQ-121,RecordPoint Retrieval,REQ-42921,2025-09-19,Status inquiry,Email,Resolved,2025-09-20
+TCK-90326,RQ-132,NJ Division of Workers' Comp,REQ-42690,2025-09-25,Status inquiry,Portal chat,Resolved,2025-09-25
+TCK-90327,RQ-124,Keystone Record Retrieval,REQ-42937,2025-09-27,Payment issue,Portal chat,Resolved,2025-09-30
+TCK-90328,RQ-122,SwiftFile Records,REQ-42763,2025-09-19,Portal login,Phone,Resolved,2025-09-21
+TCK-90329,RQ-121,RecordPoint Retrieval,REQ-42657,2025-09-21,Redaction dispute,Phone,Resolved,2025-09-23
+TCK-90330,RQ-123,DocuTrace Services,REQ-42672,2025-09-25,Missing pages,Portal chat,Resolved,2025-09-27
+TCK-90331,RQ-127,Pioneer Standard Insurance,REQ-42805,2025-09-25,Status inquiry,Phone,Resolved,2025-09-30
+TCK-90332,RQ-131,NY WCB District Office,REQ-42822,2025-09-25,Invoice question,Email,Resolved,2025-09-25
+TCK-90333,RQ-101,Morrison & Pratt LLP,REQ-42827,2025-10-01,Status inquiry,Phone,Resolved,2025-10-07
+TCK-90334,RQ-111,Ferris Nguyen LLP,REQ-42868,2025-09-27,Payment issue,Email,Resolved,2025-10-01
+TCK-90335,RQ-101,Morrison & Pratt LLP,REQ-42923,2025-09-26,Status inquiry,Email,Resolved,2025-09-27
+TCK-90336,RQ-131,NY WCB District Office,REQ-42680,2025-10-01,Invoice question,Email,Resolved,2025-10-06
+TCK-90337,RQ-121,RecordPoint Retrieval,REQ-42812,2025-09-27,Portal login,Phone,Resolved,2025-10-01
+TCK-90338,RQ-121,RecordPoint Retrieval,REQ-42864,2025-10-05,Payment issue,Email,Resolved,2025-10-07
+TCK-90339,RQ-121,RecordPoint Retrieval,REQ-42653,2025-10-04,Portal login,Phone,Resolved,2025-10-05
+TCK-90340,RQ-114,Tate & Winslow,REQ-42782,2025-10-03,Status inquiry,Portal chat,Resolved,2025-10-04
+TCK-90341,RQ-104,Whitcombe & Rao,REQ-42847,2025-09-28,Payment issue,Phone,Resolved,2025-10-04
+TCK-90342,RQ-110,Marchetti & Cole,REQ-42856,2025-10-07,Status inquiry,Email,Resolved,2025-10-10
+TCK-90343,RQ-126,Summit Chart Services,REQ-42667,2025-09-30,Status inquiry,Phone,Resolved,2025-10-04
+TCK-90344,RQ-133,Individual claimants (self-represented),REQ-42861,2025-10-10,Status inquiry,Phone,Resolved,2025-10-12
+TCK-90345,RQ-121,RecordPoint Retrieval,REQ-43113,2025-10-08,Invoice question,Email,Resolved,2025-10-08
+TCK-90346,RQ-124,Keystone Record Retrieval,REQ-43180,2025-10-12,Missing pages,Phone,Resolved,2025-10-17
+TCK-90347,RQ-124,Keystone Record Retrieval,REQ-43189,2025-10-11,Status inquiry,Phone,Resolved,2025-10-11
+TCK-90348,RQ-121,RecordPoint Retrieval,REQ-43068,2025-10-12,Portal login,Phone,Resolved,2025-10-17
+TCK-90349,RQ-130,Sterling Auto Insurance,REQ-43119,2025-10-10,Portal login,Portal chat,Resolved,2025-10-12
+TCK-90350,RQ-101,Morrison & Pratt LLP,REQ-42959,2025-10-21,Payment issue,Portal chat,Resolved,2025-10-25
+TCK-90351,RQ-128,Lakeside Mutual,REQ-43143,2025-10-21,Duplicate request,Email,Resolved,2025-10-23
+TCK-90352,RQ-110,Marchetti & Cole,REQ-43256,2025-10-21,Invoice question,Email,Resolved,2025-10-22
+TCK-90353,RQ-124,Keystone Record Retrieval,REQ-42972,2025-10-19,Status inquiry,Email,Resolved,2025-10-24
+TCK-90354,RQ-121,RecordPoint Retrieval,REQ-43120,2025-10-16,Invoice question,Portal chat,Resolved,2025-10-19
+TCK-90355,RQ-132,NJ Division of Workers' Comp,REQ-43133,2025-10-25,Status inquiry,Email,Resolved,2025-10-26
+TCK-90356,RQ-101,Morrison & Pratt LLP,REQ-43265,2025-10-19,Duplicate request,Portal chat,Resolved,2025-10-20
+TCK-90357,RQ-108,Salas Trial Lawyers,REQ-43011,2025-10-26,Status inquiry,Phone,Resolved,2025-10-30
+TCK-90358,RQ-101,Morrison & Pratt LLP,REQ-43168,2025-10-17,Duplicate request,Portal chat,Resolved,2025-10-22
+TCK-90359,RQ-127,Pioneer Standard Insurance,REQ-43102,2025-10-23,Status inquiry,Phone,Resolved,2025-10-24
+TCK-90360,RQ-108,Salas Trial Lawyers,REQ-43245,2025-10-24,Status inquiry,Portal chat,Resolved,2025-10-28
+TCK-90361,RQ-132,NJ Division of Workers' Comp,REQ-43155,2025-10-23,Status inquiry,Email,Resolved,2025-10-24
+TCK-90362,RQ-108,Salas Trial Lawyers,REQ-43208,2025-10-22,Invoice question,Phone,Resolved,2025-10-22
+TCK-90363,RQ-124,Keystone Record Retrieval,REQ-43037,2025-10-26,Invoice question,Email,Resolved,2025-10-28
+TCK-90364,RQ-111,Ferris Nguyen LLP,REQ-43137,2025-10-27,Status inquiry,Phone,Resolved,2025-10-31
+TCK-90365,RQ-121,RecordPoint Retrieval,REQ-43040,2025-10-29,Missing pages,Portal chat,Resolved,2025-10-31
+TCK-90366,RQ-133,Individual claimants (self-represented),REQ-43023,2025-11-03,Invoice question,Phone,Resolved,2025-11-08
+TCK-90367,RQ-101,Morrison & Pratt LLP,REQ-43125,2025-11-02,Missing pages,Phone,Resolved,2025-11-04
+TCK-90368,RQ-131,NY WCB District Office,REQ-43069,2025-10-28,Status inquiry,Email,Resolved,2025-11-03
+TCK-90369,RQ-101,Morrison & Pratt LLP,REQ-43149,2025-11-08,Invoice question,Phone,Resolved,2025-11-09
+TCK-90370,RQ-119,Quinlan & Ames,REQ-42980,2025-11-09,Invoice question,Portal chat,Resolved,2025-11-12
+TCK-90371,RQ-121,RecordPoint Retrieval,REQ-43214,2025-11-01,Invoice question,Email,Resolved,2025-11-04
+TCK-90372,RQ-121,RecordPoint Retrieval,REQ-43311,2025-11-14,Invoice question,Email,Resolved,2025-11-15
+TCK-90373,RQ-120,Beaumont Stark,REQ-43365,2025-11-07,Payment issue,Portal chat,Resolved,2025-11-07
+TCK-90374,RQ-120,Beaumont Stark,REQ-43391,2025-11-14,Status inquiry,Phone,Resolved,2025-11-15
+TCK-90375,RQ-109,Hudson Valley Injury Law,REQ-43436,2025-11-05,Payment issue,Portal chat,Resolved,2025-11-07
+TCK-90376,RQ-101,Morrison & Pratt LLP,REQ-43317,2025-11-06,Duplicate request,Email,Resolved,2025-11-12
+TCK-90377,RQ-121,RecordPoint Retrieval,REQ-43541,2025-11-14,Portal login,Email,Resolved,2025-11-19
+TCK-90378,RQ-109,Hudson Valley Injury Law,REQ-43525,2025-11-10,Portal login,Phone,Resolved,2025-11-12
+TCK-90379,RQ-111,Ferris Nguyen LLP,REQ-43400,2025-11-11,Status inquiry,Phone,Resolved,2025-11-16
+TCK-90380,RQ-126,Summit Chart Services,REQ-43419,2025-11-16,Status inquiry,Portal chat,Resolved,2025-11-17
+TCK-90381,RQ-110,Marchetti & Cole,REQ-43339,2025-11-17,Payment issue,Phone,Resolved,2025-11-21
+TCK-90382,RQ-104,Whitcombe & Rao,REQ-43290,2025-11-23,Portal login,Portal chat,Resolved,2025-11-24
+TCK-90383,RQ-123,DocuTrace Services,REQ-43474,2025-11-18,Status inquiry,Phone,Resolved,2025-11-23
+TCK-90384,RQ-133,Individual claimants (self-represented),REQ-43471,2025-11-16,Status inquiry,Portal chat,Resolved,2025-11-21
+TCK-90385,RQ-101,Morrison & Pratt LLP,REQ-43333,2025-11-28,Status inquiry,Portal chat,Resolved,2025-11-28
+TCK-90386,RQ-102,Delgado Law Group,REQ-43392,2025-11-24,Invoice question,Phone,Resolved,2025-11-24
+TCK-90387,RQ-118,Pruitt Legal Group,REQ-43415,2025-11-23,Portal login,Portal chat,Resolved,2025-11-25
+TCK-90388,RQ-121,RecordPoint Retrieval,REQ-43539,2025-11-29,Payment issue,Portal chat,Resolved,2025-12-02
+TCK-90389,RQ-122,SwiftFile Records,REQ-43354,2025-11-24,Missing pages,Phone,Resolved,2025-11-30
+TCK-90390,RQ-121,RecordPoint Retrieval,REQ-43432,2025-11-26,Status inquiry,Portal chat,Resolved,2025-12-02
+TCK-90391,RQ-105,Brennan Hale PC,REQ-43437,2025-11-25,Status inquiry,Email,Resolved,2025-11-25
+TCK-90392,RQ-121,RecordPoint Retrieval,REQ-43449,2025-11-29,Portal login,Portal chat,Resolved,2025-11-30
+TCK-90393,RQ-108,Salas Trial Lawyers,REQ-43369,2025-11-26,Invoice question,Email,Resolved,2025-11-27
+TCK-90394,RQ-121,RecordPoint Retrieval,REQ-43371,2025-11-30,Status inquiry,Phone,Resolved,2025-12-06
+TCK-90395,RQ-103,Kessler Injury Attorneys,REQ-43489,2025-11-28,Payment issue,Email,Resolved,2025-11-28
+TCK-90396,RQ-119,Quinlan & Ames,REQ-43375,2025-11-26,Portal login,Phone,Resolved,2025-11-28
+TCK-90397,RQ-132,NJ Division of Workers' Comp,REQ-43409,2025-11-25,Invoice question,Portal chat,Resolved,2025-11-28
+TCK-90398,RQ-119,Quinlan & Ames,REQ-43464,2025-11-29,Invoice question,Email,Resolved,2025-12-05
+TCK-90399,RQ-120,Beaumont Stark,REQ-43370,2025-12-05,Redaction dispute,Portal chat,Resolved,2025-12-05
+TCK-90400,RQ-133,Individual claimants (self-represented),REQ-43505,2025-12-07,Status inquiry,Phone,Resolved,2025-12-08
+TCK-90401,RQ-101,Morrison & Pratt LLP,REQ-43321,2025-12-08,Missing pages,Email,Resolved,2025-12-09
+TCK-90402,RQ-113,Grayson Poole,REQ-43518,2025-11-30,Portal login,Portal chat,Resolved,2025-11-30
+TCK-90403,RQ-115,Lindqvist Defense,REQ-43404,2025-11-28,Redaction dispute,Portal chat,Resolved,2025-11-29
+TCK-90404,RQ-121,RecordPoint Retrieval,REQ-43520,2025-12-03,Portal login,Email,Resolved,2025-12-06
+TCK-90405,RQ-121,RecordPoint Retrieval,REQ-43757,2025-12-13,Portal login,Portal chat,Resolved,2025-12-13
+TCK-90406,RQ-103,Kessler Injury Attorneys,REQ-43741,2025-12-03,Payment issue,Email,Resolved,2025-12-04
+TCK-90407,RQ-101,Morrison & Pratt LLP,REQ-43760,2025-12-07,Status inquiry,Portal chat,Resolved,2025-12-09
+TCK-90408,RQ-130,Sterling Auto Insurance,REQ-43622,2025-12-05,Status inquiry,Phone,Resolved,2025-12-11
+TCK-90409,RQ-131,NY WCB District Office,REQ-43706,2025-12-12,Status inquiry,Email,Resolved,2025-12-18
+TCK-90410,RQ-116,Carver Moss LLP,REQ-43593,2025-12-05,Missing pages,Portal chat,Resolved,2025-12-05
+TCK-90411,RQ-121,RecordPoint Retrieval,REQ-43790,2025-12-16,Portal login,Email,Resolved,2025-12-21
+TCK-90412,RQ-121,RecordPoint Retrieval,REQ-43603,2025-12-06,Status inquiry,Portal chat,Resolved,2025-12-11
+TCK-90413,RQ-107,Park & Levine,REQ-43666,2025-12-12,Status inquiry,Phone,Resolved,2025-12-15
+TCK-90414,RQ-121,RecordPoint Retrieval,REQ-43679,2025-12-13,Other,Email,Resolved,2025-12-16
+TCK-90415,RQ-101,Morrison & Pratt LLP,REQ-43642,2025-12-18,Invoice question,Phone,Resolved,2025-12-21
+TCK-90416,RQ-104,Whitcombe & Rao,REQ-43755,2025-12-20,Status inquiry,Email,Resolved,2025-12-26
+TCK-90417,RQ-133,Individual claimants (self-represented),REQ-43732,2025-12-15,Duplicate request,Email,Resolved,2025-12-15
+TCK-90418,RQ-121,RecordPoint Retrieval,REQ-43568,2025-12-27,Invoice question,Email,Resolved,2026-01-02
+TCK-90419,RQ-112,Abernathy Law,REQ-43693,2025-12-24,Missing pages,Email,Resolved,2025-12-28
+TCK-90420,RQ-121,RecordPoint Retrieval,REQ-43782,2025-12-25,Portal login,Phone,Resolved,2025-12-28
+TCK-90421,RQ-133,Individual claimants (self-represented),REQ-43709,2025-12-26,Missing pages,Email,Resolved,2025-12-31
+TCK-90422,RQ-110,Marchetti & Cole,REQ-43576,2025-12-21,Redaction dispute,Email,Resolved,2025-12-24
+TCK-90423,RQ-133,Individual claimants (self-represented),REQ-43650,2025-12-27,Missing pages,Email,Resolved,2025-12-28
+TCK-90424,RQ-105,Brennan Hale PC,REQ-43681,2025-12-24,Status inquiry,Portal chat,Resolved,2025-12-29
+TCK-90425,RQ-115,Lindqvist Defense,REQ-43703,2025-12-30,Status inquiry,Phone,Resolved,2026-01-01
+TCK-90426,RQ-101,Morrison & Pratt LLP,REQ-43704,2025-12-25,Duplicate request,Email,Resolved,2025-12-28
+TCK-90427,RQ-117,Iverson Goldberg,REQ-43748,2026-01-02,Duplicate request,Portal chat,Resolved,2026-01-08
+TCK-90428,RQ-108,Salas Trial Lawyers,REQ-43649,2025-12-29,Invoice question,Phone,Resolved,2025-12-31
+TCK-90429,RQ-125,ClearPath Records,REQ-43664,2025-12-26,Status inquiry,Portal chat,Resolved,2025-12-26
+TCK-90430,RQ-108,Salas Trial Lawyers,REQ-43810,2025-12-29,Duplicate request,Email,Resolved,2026-01-01
+TCK-90431,RQ-120,Beaumont Stark,REQ-43566,2025-12-30,Status inquiry,Email,Resolved,2026-01-01
+TCK-90432,RQ-101,Morrison & Pratt LLP,REQ-43616,2026-01-03,Duplicate request,Email,Resolved,2026-01-08
+TCK-90433,RQ-118,Pruitt Legal Group,REQ-43644,2026-01-04,Status inquiry,Portal chat,Resolved,2026-01-06
+TCK-90434,RQ-121,RecordPoint Retrieval,REQ-43735,2026-01-04,Portal login,Email,Resolved,2026-01-04
+TCK-90435,RQ-114,Tate & Winslow,REQ-43801,2025-12-30,Invoice question,Phone,Resolved,2026-01-01
+TCK-90436,RQ-121,RecordPoint Retrieval,REQ-44123,2026-01-07,Portal login,Phone,Resolved,2026-01-09
+TCK-90437,RQ-108,Salas Trial Lawyers,REQ-43863,2026-01-06,Status inquiry,Email,Resolved,2026-01-08
+TCK-90438,RQ-121,RecordPoint Retrieval,REQ-44005,2026-01-06,Invoice question,Portal chat,Resolved,2026-01-06
+TCK-90439,RQ-125,ClearPath Records,REQ-44156,2026-01-12,Status inquiry,Email,Resolved,2026-01-18
+TCK-90440,RQ-121,RecordPoint Retrieval,REQ-44169,2026-01-11,Portal login,Phone,Resolved,2026-01-11
+TCK-90441,RQ-115,Lindqvist Defense,REQ-43881,2026-01-12,Payment issue,Email,Resolved,2026-01-17
+TCK-90442,RQ-116,Carver Moss LLP,REQ-43870,2026-01-17,Other,Phone,Resolved,2026-01-19
+TCK-90443,RQ-132,NJ Division of Workers' Comp,REQ-43955,2026-01-19,Invoice question,Email,Resolved,2026-01-19
+TCK-90444,RQ-128,Lakeside Mutual,REQ-43851,2026-01-11,Status inquiry,Phone,Resolved,2026-01-15
+TCK-90445,RQ-107,Park & Levine,REQ-44171,2026-01-11,Missing pages,Phone,Resolved,2026-01-16
+TCK-90446,RQ-112,Abernathy Law,REQ-43894,2026-01-14,Status inquiry,Email,Resolved,2026-01-14
+TCK-90447,RQ-122,SwiftFile Records,REQ-43853,2026-01-14,Invoice question,Email,Resolved,2026-01-16
+TCK-90448,RQ-108,Salas Trial Lawyers,REQ-43924,2026-01-14,Payment issue,Portal chat,Resolved,2026-01-17
+TCK-90449,RQ-121,RecordPoint Retrieval,REQ-43927,2026-01-15,Portal login,Portal chat,Resolved,2026-01-17
+TCK-90450,RQ-131,NY WCB District Office,REQ-43937,2026-01-14,Payment issue,Email,Resolved,2026-01-19
+TCK-90451,RQ-121,RecordPoint Retrieval,REQ-44051,2026-01-23,Portal login,Portal chat,Resolved,2026-01-24
+TCK-90452,RQ-121,RecordPoint Retrieval,REQ-44128,2026-01-19,Status inquiry,Email,Resolved,2026-01-25
+TCK-90453,RQ-121,RecordPoint Retrieval,REQ-44145,2026-01-21,Missing pages,Email,Resolved,2026-01-27
+TCK-90454,RQ-111,Ferris Nguyen LLP,REQ-44148,2026-01-23,Payment issue,Portal chat,Resolved,2026-01-24
+TCK-90455,RQ-133,Individual claimants (self-represented),REQ-43931,2026-01-18,Invoice question,Phone,Resolved,2026-01-20
+TCK-90456,RQ-121,RecordPoint Retrieval,REQ-44073,2026-01-21,Portal login,Portal chat,Resolved,2026-01-27
+TCK-90457,RQ-101,Morrison & Pratt LLP,REQ-44020,2026-01-18,Portal login,Phone,Resolved,2026-01-19
+TCK-90458,RQ-120,Beaumont Stark,REQ-44154,2026-01-19,Status inquiry,Portal chat,Resolved,2026-01-23
+TCK-90459,RQ-121,RecordPoint Retrieval,REQ-44211,2026-01-25,Invoice question,Email,Resolved,2026-01-27
+TCK-90460,RQ-121,RecordPoint Retrieval,REQ-43975,2026-01-27,Status inquiry,Portal chat,Resolved,2026-01-31
+TCK-90461,RQ-101,Morrison & Pratt LLP,REQ-44019,2026-01-22,Invoice question,Phone,Resolved,2026-01-28
+TCK-90462,RQ-117,Iverson Goldberg,REQ-44092,2026-01-29,Redaction dispute,Email,Resolved,2026-01-30
+TCK-90463,RQ-121,RecordPoint Retrieval,REQ-43933,2026-01-28,Portal login,Email,Resolved,2026-02-01
+TCK-90464,RQ-121,RecordPoint Retrieval,REQ-43939,2026-01-28,Portal login,Portal chat,Resolved,2026-01-29
+TCK-90465,RQ-128,Lakeside Mutual,REQ-43951,2026-01-29,Status inquiry,Email,Resolved,2026-02-02
+TCK-90466,RQ-124,Keystone Record Retrieval,REQ-44054,2026-01-25,Status inquiry,Email,Resolved,2026-01-31
+TCK-90467,RQ-106,Ostrowski Legal,REQ-43841,2026-01-28,Duplicate request,Phone,Resolved,2026-02-03
+TCK-90468,RQ-124,Keystone Record Retrieval,REQ-44070,2026-02-04,Status inquiry,Email,Resolved,2026-02-05
+TCK-90469,RQ-130,Sterling Auto Insurance,REQ-44194,2026-01-31,Other,Email,Resolved,2026-01-31
+TCK-90470,RQ-127,Pioneer Standard Insurance,REQ-43915,2026-01-27,Other,Portal chat,Resolved,2026-01-27
+TCK-90471,RQ-124,Keystone Record Retrieval,REQ-44027,2026-02-04,Portal login,Email,Resolved,2026-02-08
+TCK-90472,RQ-111,Ferris Nguyen LLP,REQ-44155,2026-02-07,Duplicate request,Phone,Resolved,2026-02-08
+TCK-90473,RQ-121,RecordPoint Retrieval,REQ-44166,2026-02-02,Portal login,Portal chat,Resolved,2026-02-02
+TCK-90474,RQ-121,RecordPoint Retrieval,REQ-44206,2026-01-27,Status inquiry,Phone,Resolved,2026-01-27
+TCK-90475,RQ-121,RecordPoint Retrieval,REQ-44113,2026-02-06,Portal login,Email,Resolved,2026-02-08
+TCK-90476,RQ-133,Individual claimants (self-represented),REQ-44037,2026-02-08,Portal login,Email,Resolved,2026-02-14
+TCK-90477,RQ-125,ClearPath Records,REQ-44216,2026-01-31,Status inquiry,Portal chat,Resolved,2026-01-31
+TCK-90478,RQ-121,RecordPoint Retrieval,REQ-44416,2026-02-08,Portal login,Email,Resolved,2026-02-12
+TCK-90479,RQ-121,RecordPoint Retrieval,REQ-44448,2026-02-13,Portal login,Email,Resolved,2026-02-15
+TCK-90480,RQ-127,Pioneer Standard Insurance,REQ-44550,2026-02-09,Status inquiry,Email,Resolved,2026-02-13
+TCK-90481,RQ-132,NJ Division of Workers' Comp,REQ-44457,2026-02-12,Other,Phone,Resolved,2026-02-13
+TCK-90482,RQ-133,Individual claimants (self-represented),REQ-44464,2026-02-12,Portal login,Portal chat,Resolved,2026-02-18
+TCK-90483,RQ-120,Beaumont Stark,REQ-44444,2026-02-12,Invoice question,Email,Resolved,2026-02-14
+TCK-90484,RQ-101,Morrison & Pratt LLP,REQ-44383,2026-02-13,Payment issue,Phone,Resolved,2026-02-19
+TCK-90485,RQ-121,RecordPoint Retrieval,REQ-44385,2026-02-14,Portal login,Email,Resolved,2026-02-15
+TCK-90486,RQ-109,Hudson Valley Injury Law,REQ-44431,2026-02-16,Duplicate request,Email,Resolved,2026-02-18
+TCK-90487,RQ-123,DocuTrace Services,REQ-44477,2026-02-15,Status inquiry,Phone,Resolved,2026-02-19
+TCK-90488,RQ-126,Summit Chart Services,REQ-44483,2026-02-06,Payment issue,Phone,Resolved,2026-02-11
+TCK-90489,RQ-117,Iverson Goldberg,REQ-44496,2026-02-07,Status inquiry,Email,Resolved,2026-02-11
+TCK-90490,RQ-124,Keystone Record Retrieval,REQ-44463,2026-02-21,Payment issue,Phone,Resolved,2026-02-26
+TCK-90491,RQ-102,Delgado Law Group,REQ-44336,2026-02-15,Duplicate request,Email,Resolved,2026-02-20
+TCK-90492,RQ-104,Whitcombe & Rao,REQ-44516,2026-02-14,Invoice question,Phone,Resolved,2026-02-19
+TCK-90493,RQ-129,Evergreen Casualty,REQ-44360,2026-02-20,Portal login,Portal chat,Resolved,2026-02-20
+TCK-90494,RQ-130,Sterling Auto Insurance,REQ-44269,2026-02-25,Duplicate request,Email,Resolved,2026-02-25
+TCK-90495,RQ-121,RecordPoint Retrieval,REQ-44489,2026-02-28,Portal login,Phone,Resolved,2026-03-01
+TCK-90496,RQ-118,Pruitt Legal Group,REQ-44465,2026-02-26,Redaction dispute,Phone,Resolved,2026-03-01
+TCK-90497,RQ-117,Iverson Goldberg,REQ-44490,2026-02-22,Status inquiry,Portal chat,Resolved,2026-02-27
+TCK-90498,RQ-101,Morrison & Pratt LLP,REQ-44382,2026-03-03,Status inquiry,Email,Resolved,2026-03-09
+TCK-90499,RQ-123,DocuTrace Services,REQ-44413,2026-03-03,Portal login,Portal chat,Resolved,2026-03-08
+TCK-90500,RQ-123,DocuTrace Services,REQ-44482,2026-03-01,Payment issue,Portal chat,Resolved,2026-03-04
+TCK-90501,RQ-132,NJ Division of Workers' Comp,REQ-44276,2026-02-28,Portal login,Email,Resolved,2026-03-05
+TCK-90502,RQ-121,RecordPoint Retrieval,REQ-44339,2026-02-27,Portal login,Phone,Resolved,2026-03-01
+TCK-90503,RQ-101,Morrison & Pratt LLP,REQ-44341,2026-02-26,Duplicate request,Portal chat,Resolved,2026-02-27
+TCK-90504,RQ-125,ClearPath Records,REQ-44406,2026-02-27,Invoice question,Portal chat,Resolved,2026-02-28
+TCK-90505,RQ-111,Ferris Nguyen LLP,REQ-44445,2026-02-24,Invoice question,Email,Resolved,2026-03-01
+TCK-90506,RQ-101,Morrison & Pratt LLP,REQ-44256,2026-03-01,Duplicate request,Email,Resolved,2026-03-06
+TCK-90507,RQ-101,Morrison & Pratt LLP,REQ-44511,2026-02-26,Duplicate request,Phone,Resolved,2026-02-27
+TCK-90508,RQ-123,DocuTrace Services,REQ-44506,2026-03-08,Portal login,Email,Resolved,2026-03-09
+TCK-90509,RQ-131,NY WCB District Office,REQ-44361,2026-03-02,Duplicate request,Portal chat,Resolved,2026-03-08
+TCK-90510,RQ-125,ClearPath Records,REQ-44515,2026-03-10,Status inquiry,Portal chat,Resolved,2026-03-16
+TCK-90511,RQ-121,RecordPoint Retrieval,REQ-44750,2026-03-14,Portal login,Email,Resolved,2026-03-18
+TCK-90512,RQ-101,Morrison & Pratt LLP,REQ-44793,2026-03-07,Payment issue,Phone,Resolved,2026-03-10
+TCK-90513,RQ-132,NJ Division of Workers' Comp,REQ-44950,2026-03-08,Invoice question,Email,Resolved,2026-03-14
+TCK-90514,RQ-116,Carver Moss LLP,REQ-44608,2026-03-12,Payment issue,Phone,Resolved,2026-03-15
+TCK-90515,RQ-121,RecordPoint Retrieval,REQ-44659,2026-03-08,Portal login,Portal chat,Resolved,2026-03-14
+TCK-90516,RQ-124,Keystone Record Retrieval,REQ-44896,2026-03-14,Redaction dispute,Email,Resolved,2026-03-20
+TCK-90517,RQ-132,NJ Division of Workers' Comp,REQ-44598,2026-03-11,Portal login,Email,Resolved,2026-03-11
+TCK-90518,RQ-114,Tate & Winslow,REQ-44631,2026-03-06,Missing pages,Phone,Resolved,2026-03-12
+TCK-90519,RQ-127,Pioneer Standard Insurance,REQ-44915,2026-03-06,Redaction dispute,Email,Resolved,2026-03-08
+TCK-90520,RQ-116,Carver Moss LLP,REQ-44588,2026-03-20,Duplicate request,Email,Resolved,2026-03-22
+TCK-90521,RQ-128,Lakeside Mutual,REQ-44879,2026-03-19,Status inquiry,Phone,Resolved,2026-03-22
+TCK-90522,RQ-103,Kessler Injury Attorneys,REQ-44892,2026-03-17,Other,Portal chat,Resolved,2026-03-17
+TCK-90523,RQ-117,Iverson Goldberg,REQ-44818,2026-03-12,Invoice question,Phone,Resolved,2026-03-12
+TCK-90524,RQ-131,NY WCB District Office,REQ-44860,2026-03-19,Duplicate request,Portal chat,Resolved,2026-03-25
+TCK-90525,RQ-121,RecordPoint Retrieval,REQ-44629,2026-03-20,Status inquiry,Phone,Resolved,2026-03-24
+TCK-90526,RQ-129,Evergreen Casualty,REQ-44699,2026-03-20,Status inquiry,Phone,Resolved,2026-03-20
+TCK-90527,RQ-114,Tate & Winslow,REQ-44795,2026-03-15,Invoice question,Phone,Resolved,2026-03-20
+TCK-90528,RQ-115,Lindqvist Defense,REQ-44958,2026-03-18,Status inquiry,Phone,Resolved,2026-03-22
+TCK-90529,RQ-101,Morrison & Pratt LLP,REQ-44925,2026-03-19,Duplicate request,Email,Resolved,2026-03-23
+TCK-90530,RQ-102,Delgado Law Group,REQ-44955,2026-03-14,Status inquiry,Portal chat,Resolved,2026-03-17
+TCK-90531,RQ-125,ClearPath Records,REQ-44728,2026-03-14,Status inquiry,Phone,Resolved,2026-03-14
+TCK-90532,RQ-110,Marchetti & Cole,REQ-44741,2026-03-28,Status inquiry,Email,Resolved,2026-03-29
+TCK-90533,RQ-115,Lindqvist Defense,REQ-44760,2026-03-20,Missing pages,Email,Resolved,2026-03-21
+TCK-90534,RQ-131,NY WCB District Office,REQ-44786,2026-03-23,Duplicate request,Phone,Resolved,2026-03-29
+TCK-90535,RQ-117,Iverson Goldberg,REQ-44808,2026-03-21,Invoice question,Email,Resolved,2026-03-26
+TCK-90536,RQ-133,Individual claimants (self-represented),REQ-44838,2026-03-28,Status inquiry,Phone,Resolved,2026-03-29
+TCK-90537,RQ-121,RecordPoint Retrieval,REQ-44929,2026-03-28,Payment issue,Email,Resolved,2026-04-01
+TCK-90538,RQ-101,Morrison & Pratt LLP,REQ-44941,2026-03-26,Duplicate request,Phone,Resolved,2026-03-31
+TCK-90539,RQ-126,Summit Chart Services,REQ-44817,2026-03-30,Status inquiry,Email,Resolved,2026-04-05
+TCK-90540,RQ-119,Quinlan & Ames,REQ-44581,2026-03-21,Portal login,Portal chat,Resolved,2026-03-24
+TCK-90541,RQ-127,Pioneer Standard Insurance,REQ-44813,2026-03-26,Payment issue,Portal chat,Resolved,2026-03-28
+TCK-90542,RQ-103,Kessler Injury Attorneys,REQ-44601,2026-04-01,Portal login,Email,Resolved,2026-04-05
+TCK-90543,RQ-105,Brennan Hale PC,REQ-44737,2026-04-01,Other,Portal chat,Resolved,2026-04-07
+TCK-90544,RQ-121,RecordPoint Retrieval,REQ-44579,2026-03-29,Status inquiry,Phone,Resolved,2026-04-02
+TCK-90545,RQ-105,Brennan Hale PC,REQ-44613,2026-04-01,Invoice question,Phone,Resolved,2026-04-04
+TCK-90546,RQ-111,Ferris Nguyen LLP,REQ-44652,2026-03-25,Other,Portal chat,Resolved,2026-03-25
+TCK-90547,RQ-102,Delgado Law Group,REQ-44658,2026-04-04,Portal login,Email,Resolved,2026-04-08
+TCK-90548,RQ-107,Park & Levine,REQ-44719,2026-03-26,Duplicate request,Email,Resolved,2026-03-31
+TCK-90549,RQ-102,Delgado Law Group,REQ-44781,2026-04-04,Status inquiry,Email,Resolved,2026-04-09
+TCK-90550,RQ-120,Beaumont Stark,REQ-44834,2026-03-26,Portal login,Email,Resolved,2026-03-31
+TCK-90551,RQ-133,Individual claimants (self-represented),REQ-44845,2026-03-25,Portal login,Email,Resolved,2026-03-28
+TCK-90552,RQ-111,Ferris Nguyen LLP,REQ-44872,2026-03-31,Status inquiry,Phone,Resolved,2026-04-02
+TCK-90553,RQ-112,Abernathy Law,REQ-44894,2026-03-24,Status inquiry,Email,Resolved,2026-03-25
+TCK-90554,RQ-124,Keystone Record Retrieval,REQ-44918,2026-03-24,Status inquiry,Phone,Resolved,2026-03-27
+TCK-90555,RQ-133,Individual claimants (self-represented),REQ-44702,2026-03-31,Missing pages,Portal chat,Resolved,2026-03-31
+TCK-90556,RQ-133,Individual claimants (self-represented),REQ-44871,2026-03-31,Status inquiry,Phone,Resolved,2026-04-05
+TCK-90557,RQ-103,Kessler Injury Attorneys,REQ-44577,2026-03-31,Invoice question,Phone,Resolved,2026-03-31
+TCK-90558,RQ-108,Salas Trial Lawyers,REQ-44650,2026-03-27,Payment issue,Portal chat,Resolved,2026-04-01
+TCK-90559,RQ-102,Delgado Law Group,REQ-44875,2026-03-31,Missing pages,Portal chat,Resolved,2026-04-04
+TCK-90560,RQ-121,RecordPoint Retrieval,REQ-44591,2026-04-08,Status inquiry,Portal chat,Resolved,2026-04-08
+TCK-90561,RQ-133,Individual claimants (self-represented),REQ-44782,2026-04-04,Portal login,Email,Resolved,2026-04-06
+TCK-90562,RQ-129,Evergreen Casualty,REQ-44747,2026-04-05,Duplicate request,Email,Resolved,2026-04-08
+TCK-90563,RQ-112,Abernathy Law,REQ-44904,2026-04-01,Status inquiry,Phone,Resolved,2026-04-06
+TCK-90564,RQ-129,Evergreen Casualty,REQ-44987,2026-04-04,Invoice question,Portal chat,Resolved,2026-04-05
+TCK-90565,RQ-133,Individual claimants (self-represented),REQ-45062,2026-04-11,Status inquiry,Portal chat,Resolved,2026-04-11
+TCK-90566,RQ-121,RecordPoint Retrieval,REQ-45087,2026-04-10,Other,Phone,Resolved,2026-04-12
+TCK-90567,RQ-101,Morrison & Pratt LLP,REQ-45110,2026-04-06,Invoice question,Portal chat,Resolved,2026-04-10
+TCK-90568,RQ-101,Morrison & Pratt LLP,REQ-45058,2026-04-11,Status inquiry,Portal chat,Resolved,2026-04-14
+TCK-90569,RQ-121,RecordPoint Retrieval,REQ-45106,2026-04-06,Status inquiry,Phone,Resolved,2026-04-11
+TCK-90570,RQ-121,RecordPoint Retrieval,REQ-45201,2026-04-08,Status inquiry,Email,Resolved,2026-04-13
+TCK-90571,RQ-123,DocuTrace Services,REQ-44976,2026-04-08,Status inquiry,Phone,Resolved,2026-04-12
+TCK-90572,RQ-121,RecordPoint Retrieval,REQ-45079,2026-04-11,Portal login,Phone,Resolved,2026-04-11
+TCK-90573,RQ-121,RecordPoint Retrieval,REQ-45152,2026-04-15,Payment issue,Portal chat,Resolved,2026-04-17
+TCK-90574,RQ-122,SwiftFile Records,REQ-45228,2026-04-19,Status inquiry,Email,Resolved,2026-04-19
+TCK-90575,RQ-125,ClearPath Records,REQ-45245,2026-04-17,Payment issue,Portal chat,Resolved,2026-04-23
+TCK-90576,RQ-118,Pruitt Legal Group,REQ-45076,2026-04-14,Payment issue,Portal chat,Resolved,2026-04-18
+TCK-90577,RQ-101,Morrison & Pratt LLP,REQ-45221,2026-04-18,Duplicate request,Phone,Resolved,2026-04-22
+TCK-90578,RQ-126,Summit Chart Services,REQ-45067,2026-04-10,Missing pages,Portal chat,Resolved,2026-04-14
+TCK-90579,RQ-118,Pruitt Legal Group,REQ-45036,2026-04-22,Status inquiry,Portal chat,Resolved,2026-04-26
+TCK-90580,RQ-121,RecordPoint Retrieval,REQ-45238,2026-04-12,Payment issue,Portal chat,Resolved,2026-04-12
+TCK-90581,RQ-123,DocuTrace Services,REQ-45193,2026-04-17,Status inquiry,Phone,Resolved,2026-04-23
+TCK-90582,RQ-121,RecordPoint Retrieval,REQ-45232,2026-04-25,Missing pages,Email,Resolved,2026-05-01
+TCK-90583,RQ-116,Carver Moss LLP,REQ-45153,2026-04-27,Invoice question,Email,Resolved,2026-05-01
+TCK-90584,RQ-124,Keystone Record Retrieval,REQ-45065,2026-04-28,Portal login,Phone,Resolved,2026-05-03
+TCK-90585,RQ-101,Morrison & Pratt LLP,REQ-45066,2026-04-22,Duplicate request,Portal chat,Resolved,2026-04-23
+TCK-90586,RQ-111,Ferris Nguyen LLP,REQ-45121,2026-04-19,Duplicate request,Email,Resolved,2026-04-22
+TCK-90587,RQ-124,Keystone Record Retrieval,REQ-44988,2026-05-02,Invoice question,Portal chat,Resolved,2026-05-05
+TCK-90588,RQ-112,Abernathy Law,REQ-45038,2026-04-27,Status inquiry,Portal chat,Resolved,2026-04-29
+TCK-90589,RQ-121,RecordPoint Retrieval,REQ-45224,2026-05-01,Missing pages,Phone,Resolved,2026-05-04
+TCK-90590,RQ-101,Morrison & Pratt LLP,REQ-45009,2026-04-28,Missing pages,Phone,Resolved,2026-04-29
+TCK-90591,RQ-115,Lindqvist Defense,REQ-45083,2026-04-28,Status inquiry,Phone,Resolved,2026-05-03
+TCK-90592,RQ-121,RecordPoint Retrieval,REQ-45174,2026-04-24,Portal login,Email,Resolved,2026-04-29
+TCK-90593,RQ-121,RecordPoint Retrieval,REQ-45104,2026-04-27,Duplicate request,Email,Resolved,2026-05-01
+TCK-90594,RQ-126,Summit Chart Services,REQ-45178,2026-05-03,Invoice question,Portal chat,Resolved,2026-05-06
+TCK-90595,RQ-133,Individual claimants (self-represented),REQ-44994,2026-05-05,Status inquiry,Phone,Resolved,2026-05-07
+TCK-90596,RQ-102,Delgado Law Group,REQ-45135,2026-04-29,Invoice question,Phone,Resolved,2026-05-04
+TCK-90597,RQ-132,NJ Division of Workers' Comp,REQ-45258,2026-05-09,Missing pages,Portal chat,Resolved,2026-05-14
+TCK-90598,RQ-126,Summit Chart Services,REQ-45320,2026-05-09,Invoice question,Phone,Resolved,2026-05-12
+TCK-90599,RQ-129,Evergreen Casualty,REQ-45394,2026-05-08,Duplicate request,Phone,Resolved,2026-05-13
+TCK-90600,RQ-121,RecordPoint Retrieval,REQ-45431,2026-05-15,Invoice question,Portal chat,Resolved,2026-05-19
+TCK-90601,RQ-127,Pioneer Standard Insurance,REQ-45295,2026-05-16,Invoice question,Portal chat,Resolved,2026-05-21
+TCK-90602,RQ-122,SwiftFile Records,REQ-45407,2026-05-11,Missing pages,Phone,Resolved,2026-05-13
+TCK-90603,RQ-121,RecordPoint Retrieval,REQ-45334,2026-05-09,Portal login,Email,Resolved,2026-05-15
+TCK-90604,RQ-110,Marchetti & Cole,REQ-45481,2026-05-13,Status inquiry,Portal chat,Resolved,2026-05-17
+TCK-90605,RQ-124,Keystone Record Retrieval,REQ-45268,2026-05-23,Portal login,Portal chat,Resolved,2026-05-25
+TCK-90606,RQ-124,Keystone Record Retrieval,REQ-45318,2026-05-23,Status inquiry,Email,Resolved,2026-05-27
+TCK-90607,RQ-118,Pruitt Legal Group,REQ-45345,2026-05-12,Status inquiry,Email,Resolved,2026-05-18
+TCK-90608,RQ-115,Lindqvist Defense,REQ-45371,2026-05-18,Portal login,Phone,Resolved,2026-05-19
+TCK-90609,RQ-133,Individual claimants (self-represented),REQ-45398,2026-05-15,Status inquiry,Phone,Resolved,2026-05-16
+TCK-90610,RQ-117,Iverson Goldberg,REQ-45403,2026-05-19,Missing pages,Phone,Resolved,2026-05-20
+TCK-90611,RQ-107,Park & Levine,REQ-45447,2026-05-18,Duplicate request,Email,Resolved,2026-05-18
+TCK-90612,RQ-121,RecordPoint Retrieval,REQ-45489,2026-05-12,Portal login,Email,Resolved,2026-05-13
+TCK-90613,RQ-118,Pruitt Legal Group,REQ-45525,2026-05-16,Duplicate request,Portal chat,Resolved,2026-05-18
+TCK-90614,RQ-101,Morrison & Pratt LLP,REQ-45392,2026-05-23,Duplicate request,Portal chat,Resolved,2026-05-29
+TCK-90615,RQ-124,Keystone Record Retrieval,REQ-45308,2026-05-16,Portal login,Portal chat,Resolved,2026-05-19
+TCK-90616,RQ-120,Beaumont Stark,REQ-45309,2026-05-22,Missing pages,Portal chat,Resolved,2026-05-22
+TCK-90617,RQ-101,Morrison & Pratt LLP,REQ-45496,2026-05-25,Duplicate request,Portal chat,Resolved,2026-05-29
+TCK-90618,RQ-121,RecordPoint Retrieval,REQ-45515,2026-05-27,Portal login,Email,Resolved,2026-05-31
+TCK-90619,RQ-114,Tate & Winslow,REQ-45349,2026-05-20,Status inquiry,Phone,Resolved,2026-05-23
+TCK-90620,RQ-121,RecordPoint Retrieval,REQ-45419,2026-05-22,Invoice question,Portal chat,Resolved,2026-05-22
+TCK-90621,RQ-121,RecordPoint Retrieval,REQ-45492,2026-05-30,Portal login,Portal chat,Resolved,2026-06-03
+TCK-90622,RQ-106,Ostrowski Legal,REQ-45480,2026-05-27,Payment issue,Email,Resolved,2026-05-29
+TCK-90623,RQ-128,Lakeside Mutual,REQ-45526,2026-06-01,Missing pages,Portal chat,Resolved,2026-06-05
+TCK-90624,RQ-103,Kessler Injury Attorneys,REQ-45495,2026-05-26,Status inquiry,Email,Resolved,2026-05-27
+TCK-90625,RQ-103,Kessler Injury Attorneys,REQ-45554,2026-05-28,Invoice question,Phone,Resolved,2026-06-01
+TCK-90626,RQ-101,Morrison & Pratt LLP,REQ-45375,2026-05-28,Payment issue,Phone,Resolved,2026-06-03
+TCK-90627,RQ-131,NY WCB District Office,REQ-45425,2026-05-23,Invoice question,Portal chat,Resolved,2026-05-23
+TCK-90628,RQ-110,Marchetti & Cole,REQ-45428,2026-05-23,Status inquiry,Portal chat,Resolved,2026-05-23
+TCK-90629,RQ-128,Lakeside Mutual,REQ-45483,2026-06-01,Payment issue,Email,Resolved,2026-06-06
+TCK-90630,RQ-107,Park & Levine,REQ-45335,2026-05-28,Invoice question,Portal chat,Resolved,2026-06-01
+TCK-90631,RQ-103,Kessler Injury Attorneys,REQ-45395,2026-05-30,Portal login,Portal chat,Resolved,2026-06-03
+TCK-90632,RQ-121,RecordPoint Retrieval,REQ-45412,2026-06-05,Portal login,Portal chat,Resolved,2026-06-10
+TCK-90633,RQ-131,NY WCB District Office,REQ-45549,2026-05-28,Invoice question,Email,Resolved,2026-05-29
+TCK-90634,RQ-111,Ferris Nguyen LLP,REQ-45306,2026-05-30,Status inquiry,Phone,Resolved,2026-06-01
+TCK-90635,RQ-121,RecordPoint Retrieval,REQ-45290,2026-06-07,Portal login,Email,Resolved,2026-06-10
+TCK-90636,RQ-121,RecordPoint Retrieval,REQ-45378,2026-06-03,Duplicate request,Email,Resolved,2026-06-08
+TCK-90637,RQ-113,Grayson Poole,REQ-45429,2026-06-08,Status inquiry,Portal chat,Resolved,2026-06-12
+TCK-90638,RQ-126,Summit Chart Services,REQ-45614,2026-06-10,Invoice question,Portal chat,Resolved,2026-06-16
+TCK-90639,RQ-131,NY WCB District Office,REQ-45627,2026-06-13,Invoice question,Phone,Resolved,2026-06-15
+TCK-90640,RQ-131,NY WCB District Office,REQ-45826,2026-06-03,Payment issue,Portal chat,Resolved,2026-06-06
+TCK-90641,RQ-124,Keystone Record Retrieval,REQ-45676,2026-06-05,Payment issue,Phone,Resolved,2026-06-09
+TCK-90642,RQ-123,DocuTrace Services,REQ-45714,2026-06-14,Portal login,Portal chat,Resolved,2026-06-20
+TCK-90643,RQ-121,RecordPoint Retrieval,REQ-45752,2026-06-07,Portal login,Phone,Resolved,2026-06-08
+TCK-90644,RQ-133,Individual claimants (self-represented),REQ-45584,2026-06-05,Invoice question,Phone,Resolved,2026-06-11
+TCK-90645,RQ-114,Tate & Winslow,REQ-45770,2026-06-07,Invoice question,Phone,Resolved,2026-06-10
+TCK-90646,RQ-101,Morrison & Pratt LLP,REQ-45609,2026-06-12,Portal login,Phone,Resolved,2026-06-17
+TCK-90647,RQ-133,Individual claimants (self-represented),REQ-45684,2026-06-09,Status inquiry,Email,Resolved,2026-06-14
+TCK-90648,RQ-117,Iverson Goldberg,REQ-45696,2026-06-14,Missing pages,Phone,Resolved,2026-06-20
+TCK-90649,RQ-101,Morrison & Pratt LLP,REQ-45718,2026-06-14,Invoice question,Phone,Resolved,2026-06-17
+TCK-90650,RQ-122,SwiftFile Records,REQ-45783,2026-06-15,Status inquiry,Email,Resolved,2026-06-16
+TCK-90651,RQ-123,DocuTrace Services,REQ-45807,2026-06-13,Redaction dispute,Portal chat,Resolved,2026-06-16
+TCK-90652,RQ-104,Whitcombe & Rao,REQ-45646,2026-06-23,Invoice question,Phone,Resolved,2026-06-26
+TCK-90653,RQ-121,RecordPoint Retrieval,REQ-45658,2026-06-26,Portal login,Email,Resolved,2026-07-02
+TCK-90654,RQ-121,RecordPoint Retrieval,REQ-45687,2026-06-20,Portal login,Phone,Resolved,2026-06-23
+TCK-90655,RQ-128,Lakeside Mutual,REQ-45828,2026-06-25,Duplicate request,Email,Resolved,2026-06-28
+TCK-90656,RQ-101,Morrison & Pratt LLP,REQ-45824,2026-06-19,Duplicate request,Phone,Resolved,2026-06-21
+TCK-90657,RQ-103,Kessler Injury Attorneys,REQ-45697,2026-06-25,Invoice question,Phone,Resolved,2026-06-28
+TCK-90658,RQ-133,Individual claimants (self-represented),REQ-45573,2026-06-22,Status inquiry,Phone,Resolved,2026-06-28
+TCK-90659,RQ-132,NJ Division of Workers' Comp,REQ-45749,2026-07-04,Status inquiry,Portal chat,Resolved,2026-07-04
+TCK-90660,RQ-109,Hudson Valley Injury Law,REQ-45835,2026-06-25,Payment issue,Portal chat,Resolved,2026-06-26
+TCK-90661,RQ-106,Ostrowski Legal,REQ-45598,2026-07-02,Missing pages,Email,Resolved,2026-07-02
+TCK-90662,RQ-109,Hudson Valley Injury Law,REQ-45772,2026-06-28,Status inquiry,Portal chat,Resolved,2026-06-30
+TCK-90663,RQ-121,RecordPoint Retrieval,REQ-45671,2026-07-01,Status inquiry,Phone,Resolved,2026-07-06
+TCK-90664,RQ-121,RecordPoint Retrieval,REQ-45691,2026-06-30,Invoice question,Portal chat,Resolved,2026-06-30
+TCK-90665,RQ-124,Keystone Record Retrieval,REQ-45594,2026-07-06,Invoice question,Email,Resolved,2026-07-12
+TCK-90666,RQ-112,Abernathy Law,REQ-45775,2026-06-26,Status inquiry,Portal chat,Resolved,2026-06-26
+TCK-90667,RQ-101,Morrison & Pratt LLP,REQ-45808,2026-07-03,Invoice question,Email,Resolved,2026-07-08
+TCK-90668,RQ-108,Salas Trial Lawyers,REQ-45727,2026-07-07,Missing pages,Phone,Resolved,2026-07-13
+TCK-90669,RQ-113,Grayson Poole,REQ-45769,2026-07-08,Portal login,Email,Resolved,2026-07-08
+TCK-90670,RQ-121,RecordPoint Retrieval,REQ-45612,2026-06-30,Portal login,Phone,Resolved,2026-07-02
+TCK-90671,RQ-129,Evergreen Casualty,REQ-45624,2026-07-04,Status inquiry,Email,Resolved,2026-07-08
+TCK-90672,RQ-122,SwiftFile Records,REQ-45780,2026-07-10,Portal login,Email,Resolved,2026-07-16
+TCK-90673,RQ-121,RecordPoint Retrieval,REQ-46103,2026-07-11,Payment issue,Portal chat,Resolved,2026-07-17
+TCK-90674,RQ-133,Individual claimants (self-represented),REQ-46047,2026-07-10,Status inquiry,Phone,Resolved,2026-07-10
+TCK-90675,RQ-132,NJ Division of Workers' Comp,REQ-46134,2026-07-06,Duplicate request,Phone,Resolved,2026-07-08
+TCK-90676,RQ-122,SwiftFile Records,REQ-46031,2026-07-13,Portal login,Phone,Resolved,2026-07-15
+TCK-90677,RQ-131,NY WCB District Office,REQ-46052,2026-07-07,Status inquiry,Email,Resolved,2026-07-08
+TCK-90678,RQ-132,NJ Division of Workers' Comp,REQ-46090,2026-07-14,Payment issue,Email,Resolved,2026-07-17
+TCK-90679,RQ-101,Morrison & Pratt LLP,REQ-46094,2026-07-15,Status inquiry,Portal chat,Resolved,2026-07-16
+TCK-90680,RQ-127,Pioneer Standard Insurance,REQ-46126,2026-07-10,Status inquiry,Email,Resolved,2026-07-14
+TCK-90681,RQ-122,SwiftFile Records,REQ-45912,2026-07-10,Status inquiry,Portal chat,Resolved,2026-07-16
+TCK-90682,RQ-105,Brennan Hale PC,REQ-45966,2026-07-15,Portal login,Phone,Resolved,2026-07-16
+TCK-90683,RQ-118,Pruitt Legal Group,REQ-46112,2026-07-18,Portal login,Portal chat,Resolved,2026-07-22
+TCK-90684,RQ-112,Abernathy Law,REQ-45855,2026-07-12,Other,Email,Resolved,2026-07-15
+TCK-90685,RQ-126,Summit Chart Services,REQ-45931,2026-07-12,Portal login,Email,Resolved,2026-07-13
+TCK-90686,RQ-101,Morrison & Pratt LLP,REQ-46053,2026-07-19,Missing pages,Phone,Resolved,2026-07-25
+TCK-90687,RQ-101,Morrison & Pratt LLP,REQ-46083,2026-07-15,Duplicate request,Phone,Resolved,2026-07-15
+TCK-90688,RQ-124,Keystone Record Retrieval,REQ-45845,2026-07-23,Portal login,Phone,Resolved,2026-07-25
+TCK-90689,RQ-121,RecordPoint Retrieval,REQ-45901,2026-07-25,Portal login,Portal chat,Resolved,2026-07-28
+TCK-90690,RQ-128,Lakeside Mutual,REQ-45933,2026-07-19,Missing pages,Email,Resolved,2026-07-19
+TCK-90691,RQ-121,RecordPoint Retrieval,REQ-45959,2026-07-15,Portal login,Email,Resolved,2026-07-16
+TCK-90692,RQ-121,RecordPoint Retrieval,REQ-45973,2026-07-18,Status inquiry,Portal chat,Resolved,2026-07-19
+TCK-90693,RQ-132,NJ Division of Workers' Comp,REQ-46027,2026-07-21,Invoice question,Email,Resolved,2026-07-26
+TCK-90694,RQ-124,Keystone Record Retrieval,REQ-46063,2026-07-15,Portal login,Portal chat,Resolved,2026-07-17
+TCK-90695,RQ-120,Beaumont Stark,REQ-46026,2026-07-24,Invoice question,Portal chat,Resolved,2026-07-28
+TCK-90696,RQ-130,Sterling Auto Insurance,REQ-46128,2026-07-27,Portal login,Portal chat,Resolved,2026-07-28
+TCK-90697,RQ-101,Morrison & Pratt LLP,REQ-45864,2026-07-26,Other,Portal chat,Resolved,2026-07-28
+TCK-90698,RQ-121,RecordPoint Retrieval,REQ-46071,2026-07-27,Status inquiry,Email,Resolved,2026-07-29
+TCK-90699,RQ-125,ClearPath Records,REQ-45851,2026-07-24,Missing pages,Portal chat,Resolved,2026-07-28
+TCK-90700,RQ-120,Beaumont Stark,REQ-45877,2026-07-24,Invoice question,Phone,Resolved,2026-07-29
+TCK-90701,RQ-127,Pioneer Standard Insurance,REQ-45900,2026-07-23,Payment issue,Phone,Resolved,2026-07-25
+TCK-90702,RQ-127,Pioneer Standard Insurance,REQ-45944,2026-07-31,Payment issue,Phone,Resolved,2026-08-04
+TCK-90703,RQ-113,Grayson Poole,REQ-45967,2026-07-21,Portal login,Email,Resolved,2026-07-27
+TCK-90704,RQ-101,Morrison & Pratt LLP,REQ-45979,2026-07-21,Duplicate request,Email,Resolved,2026-07-27
+TCK-90705,RQ-129,Evergreen Casualty,REQ-46101,2026-07-27,Missing pages,Phone,Resolved,2026-07-28
+TCK-90706,RQ-124,Keystone Record Retrieval,REQ-45952,2026-07-26,Invoice question,Email,Resolved,2026-07-26
+TCK-90707,RQ-127,Pioneer Standard Insurance,REQ-46015,2026-07-29,Portal login,Phone,Resolved,2026-07-29
+TCK-90708,RQ-121,RecordPoint Retrieval,REQ-46099,2026-07-25,Portal login,Email,Resolved,2026-07-31
+TCK-90709,RQ-133,Individual claimants (self-represented),REQ-45916,2026-07-28,Invoice question,Portal chat,Resolved,2026-08-03
+TCK-90710,RQ-121,RecordPoint Retrieval,REQ-46008,2026-07-31,Status inquiry,Portal chat,Resolved,2026-08-03
+TCK-90711,RQ-101,Morrison & Pratt LLP,REQ-46029,2026-07-24,Status inquiry,Phone,Resolved,2026-07-27
+TCK-90712,RQ-122,SwiftFile Records,REQ-45971,2026-07-25,Portal login,Portal chat,Resolved,2026-07-30
+TCK-90713,RQ-121,RecordPoint Retrieval,REQ-45870,2026-08-04,Other,Email,Resolved,2026-08-07
+TCK-90714,RQ-121,RecordPoint Retrieval,REQ-46146,2026-08-06,Invoice question,Email,Resolved,2026-08-07
+TCK-90715,RQ-119,Quinlan & Ames,REQ-46216,2026-08-07,Missing pages,Phone,Resolved,2026-08-10
+TCK-90716,RQ-121,RecordPoint Retrieval,REQ-46298,2026-08-10,Portal login,Phone,Resolved,2026-08-11
+TCK-90717,RQ-124,Keystone Record Retrieval,REQ-46273,2026-08-06,Redaction dispute,Email,Resolved,2026-08-08
+TCK-90718,RQ-107,Park & Levine,REQ-46471,2026-08-05,Status inquiry,Email,Resolved,2026-08-06
+TCK-90719,RQ-124,Keystone Record Retrieval,REQ-46284,2026-08-08,Missing pages,Portal chat,Resolved,2026-08-12
+TCK-90720,RQ-121,RecordPoint Retrieval,REQ-46474,2026-08-11,Other,Phone,Resolved,2026-08-13
+TCK-90721,RQ-133,Individual claimants (self-represented),REQ-46358,2026-08-13,Redaction dispute,Phone,Resolved,2026-08-15
+TCK-90722,RQ-126,Summit Chart Services,REQ-46464,2026-08-08,Status inquiry,Email,Resolved,2026-08-11
+TCK-90723,RQ-118,Pruitt Legal Group,REQ-46229,2026-08-16,Invoice question,Portal chat,Resolved,2026-08-17
+TCK-90724,RQ-121,RecordPoint Retrieval,REQ-46322,2026-08-20,Portal login,Phone,Resolved,2026-08-26
+TCK-90725,RQ-124,Keystone Record Retrieval,REQ-46381,2026-08-22,Portal login,Portal chat,Resolved,2026-08-23
+TCK-90726,RQ-121,RecordPoint Retrieval,REQ-46522,2026-08-17,Status inquiry,Phone,Resolved,2026-08-19
+TCK-90727,RQ-121,RecordPoint Retrieval,REQ-46186,2026-08-12,Status inquiry,Email,Resolved,2026-08-13
+TCK-90728,RQ-121,RecordPoint Retrieval,REQ-46202,2026-08-14,Portal login,Phone,Resolved,2026-08-18
+TCK-90729,RQ-108,Salas Trial Lawyers,REQ-46335,2026-08-14,Invoice question,Email,Resolved,2026-08-17
+TCK-90730,RQ-103,Kessler Injury Attorneys,REQ-46215,2026-08-24,Duplicate request,Portal chat,Resolved,2026-08-27
+TCK-90731,RQ-101,Morrison & Pratt LLP,REQ-46317,2026-08-26,Missing pages,Phone,Resolved,2026-08-27
+TCK-90732,RQ-123,DocuTrace Services,REQ-46463,2026-08-18,Invoice question,Portal chat,Resolved,2026-08-18
+TCK-90733,RQ-124,Keystone Record Retrieval,REQ-46188,2026-08-21,Invoice question,Email,Resolved,2026-08-26
+TCK-90734,RQ-109,Hudson Valley Injury Law,REQ-46282,2026-08-28,Payment issue,Portal chat,Resolved,2026-08-28
+TCK-90735,RQ-122,SwiftFile Records,REQ-46316,2026-08-28,Status inquiry,Portal chat,Resolved,2026-08-29
+TCK-90736,RQ-128,Lakeside Mutual,REQ-46324,2026-08-18,Portal login,Email,Resolved,2026-08-18
+TCK-90737,RQ-121,RecordPoint Retrieval,REQ-46510,2026-08-23,Status inquiry,Email,Resolved,2026-08-29
+TCK-90738,RQ-118,Pruitt Legal Group,REQ-46561,2026-08-25,Status inquiry,Portal chat,Resolved,2026-08-29
+TCK-90739,RQ-121,RecordPoint Retrieval,REQ-46389,2026-08-20,Portal login,Portal chat,Resolved,2026-08-25
+TCK-90740,RQ-121,RecordPoint Retrieval,REQ-46152,2026-08-26,Redaction dispute,Email,Resolved,2026-08-28
+TCK-90741,RQ-125,ClearPath Records,REQ-46257,2026-08-22,Invoice question,Phone,Resolved,2026-08-28
+TCK-90742,RQ-129,Evergreen Casualty,REQ-46341,2026-08-24,Status inquiry,Phone,Resolved,2026-08-27
+TCK-90743,RQ-133,Individual claimants (self-represented),REQ-46164,2026-09-04,Status inquiry,Phone,Resolved,2026-09-04
+TCK-90744,RQ-117,Iverson Goldberg,REQ-46362,2026-09-03,Invoice question,Email,Resolved,2026-09-07
+TCK-90745,RQ-118,Pruitt Legal Group,REQ-46372,2026-08-28,Duplicate request,Email,Resolved,2026-09-01
+TCK-90746,RQ-108,Salas Trial Lawyers,REQ-46423,2026-08-27,Status inquiry,Phone,Resolved,2026-08-30
+TCK-90747,RQ-129,Evergreen Casualty,REQ-46337,2026-09-01,Duplicate request,Phone,Resolved,2026-09-06
+TCK-90748,RQ-125,ClearPath Records,REQ-46311,2026-08-28,Portal login,Email,Resolved,2026-09-02
+TCK-90749,RQ-121,RecordPoint Retrieval,REQ-46325,2026-09-03,Missing pages,Email,Resolved,2026-09-06
+TCK-90750,RQ-111,Ferris Nguyen LLP,REQ-46490,2026-08-31,Other,Email,Resolved,2026-09-01
+TCK-90751,RQ-132,NJ Division of Workers' Comp,REQ-46233,2026-08-28,Redaction dispute,Phone,Resolved,2026-08-30
+TCK-90752,RQ-121,RecordPoint Retrieval,REQ-46237,2026-09-05,Portal login,Phone,Resolved,2026-09-10
+TCK-90753,RQ-116,Carver Moss LLP,REQ-46434,2026-08-29,Status inquiry,Email,Resolved,2026-09-04
+TCK-90754,RQ-124,Keystone Record Retrieval,REQ-46207,2026-09-08,Invoice question,Portal chat,Resolved,2026-09-10
+TCK-90755,RQ-111,Ferris Nguyen LLP,REQ-46370,2026-09-04,Invoice question,Email,Resolved,2026-09-09
+TCK-90756,RQ-117,Iverson Goldberg,REQ-46593,2026-09-10,Other,Email,Resolved,2026-09-15
+TCK-90757,RQ-128,Lakeside Mutual,REQ-46811,2026-09-13,Invoice question,Email,Resolved,2026-09-15
+TCK-90758,RQ-101,Morrison & Pratt LLP,REQ-46632,2026-09-07,Duplicate request,Email,Resolved,2026-09-09
+TCK-90759,RQ-125,ClearPath Records,REQ-46585,2026-09-09,Portal login,Portal chat,Resolved,2026-09-12
+TCK-90760,RQ-131,NY WCB District Office,REQ-46582,2026-09-10,Status inquiry,Email,Resolved,2026-09-12
+TCK-90761,RQ-123,DocuTrace Services,REQ-46625,2026-09-08,Invoice question,Phone,Resolved,2026-09-12
+TCK-90762,RQ-125,ClearPath Records,REQ-46629,2026-09-08,Portal login,Portal chat,Resolved,2026-09-08
+TCK-90763,RQ-126,Summit Chart Services,REQ-46646,2026-09-13,Status inquiry,Email,Resolved,2026-09-14
+TCK-90764,RQ-117,Iverson Goldberg,REQ-46802,2026-09-15,Status inquiry,Portal chat,Resolved,2026-09-18
+TCK-90765,RQ-109,Hudson Valley Injury Law,REQ-46755,2026-09-20,Portal login,Phone,Resolved,2026-09-22
+TCK-90766,RQ-117,Iverson Goldberg,REQ-46620,2026-09-20,Invoice question,Phone,Resolved,2026-09-21
+TCK-90767,RQ-113,Grayson Poole,REQ-46680,2026-09-19,Invoice question,Email,Resolved,2026-09-20
+TCK-90768,RQ-124,Keystone Record Retrieval,REQ-46752,2026-09-25,Missing pages,Phone,Open,
+TCK-90769,RQ-124,Keystone Record Retrieval,REQ-46786,2026-09-18,Status inquiry,Portal chat,Resolved,2026-09-21
+TCK-90770,RQ-133,Individual claimants (self-represented),REQ-46762,2026-09-21,Status inquiry,Phone,Resolved,2026-09-21
+TCK-90773,RQ-110,Marchetti & Cole,REQ-46670,2026-09-24,Status inquiry,Phone,Resolved,2026-09-24

@@ -1,0 +1,11 @@
+vendor_pattern,expected_account,note
+Amazon Web Services|AWS,6450,Hosting and AWS Marketplace add-ons are Cloud Hosting.
+Anthropic|Claude,6420,AI tools are software subscriptions.
+Microsoft 365|HubSpot|Foxit|Adobe|Zoom,6420,SaaS goes to Software Subscriptions.
+Iron Mountain|Shred-Right,6500,
+Verizon|Optimum,6300,
+Marconi Realty,6200,Only the office lease belongs in Rent.
+Kemper & Lau|Dunmore Legal,6600,
+Hartwell Cyber,6700,
+Delta Air|Hilton|DoorDash|Grubhub,6900,
+Staples|Uline|FedEx|UPS Store,6100,
